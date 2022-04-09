@@ -4,14 +4,13 @@ function Home() {
   return (
     <div className="">
       <Head>
-        <title>Protaroom</title>
+        <title>Protaroom Changing...</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <h1>Protaroom</h1>
-    </div>
 
+      <h1>Protaroom Changing...</h1>
+    </div>
   )
 }
 
-export default Home;
+export default Home
