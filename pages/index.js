@@ -8,7 +8,7 @@ function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Protaroom Changing...</h1>
+      <h1>Protaroom Changing2...</h1>
     </div>
   )
 }
