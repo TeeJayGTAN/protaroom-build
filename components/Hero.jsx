@@ -1,5 +1,8 @@
 import Image from 'next/image'
-import { useState, useEffect } from 'react'
+import { FaFacebookF } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+import { FaLinkedinIn } from 'react-icons/fa'
+import { FaPinterest } from 'react-icons/fa'
 import ReactTypingEffect from 'react-typing-effect'
 const words = [
   'are all about the gladness of people',
@@ -47,16 +50,24 @@ function Hero() {
       </div>
       <div className="hero__socialLinks z-10 flex max-w-md flex-row self-start md:px-5 lg:px-9">
         <span>
-          <a href="#">F</a>
+          <a href="#">
+            <FaFacebookF />
+          </a>
         </span>
         <span>
-          <a href="#">G</a>
+          <a href="#">
+            <FaPinterest />
+          </a>
         </span>
         <span>
-          <a href="#">L</a>
+          <a href="#">
+            <FaLinkedinIn />
+          </a>
         </span>
         <span>
-          <a href="#">I</a>
+          <a href="#">
+            <FaInstagram />
+          </a>
         </span>
       </div>
     </div>
