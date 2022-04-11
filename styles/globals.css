@@ -1,3 +1,257 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../../LarsseitFont/Larsseit-Light.otf') format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../../LarsseitFont/Larsseit.otf') format('opentype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../../LarsseitFont/Larsseit-Medium.otf') format('opentype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../../LarsseitFont/Larsseit-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  paddding: 0;
+}
+
+:root {
+  --bg-color: rgba(243, 244, 246, 0.65);
+  --text-color: #0f212f;
+  --accent-color: #ff8000;
+}
+
+html,
+body {
+  font-family: 'Larsseit', serif;
+  min-height: 100vh;
+  overflow: hidden;
+  /*background-color: var(--bg-color);*/
+  color: var(--text-color);
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.hero-container {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.nav__link:hover {
+  color: var(--accent-color);
+}
+.btn-hire-us {
+  background-color: var(--accent-color);
+}
+.btn-hire-us:hover {
+  background-color: var(--text-color);
+}
+/*Hamburger Menu Styles Start*/
+.hamburgerMenu {
+  display: flex;
+  justify-content: flex-start;
+  /*align-items: center;*/
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+
+.hamburgerMenu--line {
+  width: 28.5px;
+  height: 3px;
+  border: none;
+  position: absolute;
+}
+
+.hamburgerMenu--line:nth-child(1) {
+  transform: translateY(-10px);
+  background-color: var(--text-color);
+}
+.hamburgerMenu--line:nth-child(3) {
+  transform: translateY(10px);
+  background-color: var(--text-color);
+}
+.hamburgerMenu--line:nth-child(2) {
+  width: 18px;
+  background-color: var(--accent-color);
+}
+
+.removeDash {
+  animation: removeDash 400ms ease-out forwards;
+}
+
+@keyframes removeDash {
+  0% {
+    width: 18px;
+    opacity: 1;
+    transform: translateX(0);
+  }
+  50% {
+    width: 18px;
+    opacity: 0.6;
+    transform: translateX(50%);
+  }
+  75% {
+    width: 18px;
+    opacity: 0.4;
+    transform: translateX(70%);
+  }
+  100% {
+    opacity: 0;
+    width: 18px;
+    transform: translateX(100%);
+  }
+}
+
+.putDash {
+  animation: putDash 400ms ease forwards;
+}
+
+@keyframes putDash {
+  0% {
+    opacity: 0;
+    width: 18px;
+    transform: translateX(100%);
+  }
+  50% {
+    width: 18px;
+    opacity: 0.4;
+    transform: translateX(70%);
+  }
+  75% {
+    width: 18px;
+    opacity: 0.6;
+    transform: translateX(50%);
+  }
+
+  85% {
+    width: 18px;
+    opacity: 0.85;
+    transform: translateX(25%);
+  }
+  100% {
+    width: 18px;
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.rotateLeft {
+  animation: rotateLeft 500ms ease forwards;
+  animation-delay: 515ms;
+}
+
+@keyframes rotateLeft {
+  from {
+    transform: rotate(0deg);
+    background-color: var(--text-color);
+  }
+  to {
+    transform: rotate(45deg);
+    background-color: var(--accent-color);
+  }
+}
+
+.rotateRight {
+  animation: rotateRight 500ms ease forwards;
+  animation-delay: 500ms;
+}
+
+@keyframes rotateRight {
+  from {
+    transform: rotate(0deg);
+    background-color: var(--text-color);
+  }
+  to {
+    transform: rotate(135deg);
+    background-color: var(--accent-color);
+  }
+}
+
+.makeStraight1 {
+  animation: makeStraight1 500ms ease-in forwards;
+}
+
+@keyframes makeStraight1 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.makeStraight2 {
+  animation: makeStraight2 500ms ease-in forwards;
+}
+
+@keyframes makeStraight2 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+/*Hamburger Menu Styles End*/
+
+/*NavBar mobile responsiveness styles*/
+@media (min-width: 768px) {
+  .md\:text-sm-custom {
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+  }
+}
+@media (min-width: 950px) {
+  .md\:text-sm-custom {
+    font-size: 0.995rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+  }
+}
+
+/*Navbar mobile responsiveness styles*/
+
+/* Hero section styles start*/
+
+.hero-bg-img {
+  background-image: url(../public/assets/images/hero/hero-art1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.3;
+}
+.hero__socialLinks {
+  margin-top: -20px;
+}
+.hero__categories a:hover {
+  color: var(--accent-color);
+}
