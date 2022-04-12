@@ -9,7 +9,7 @@ function Header() {
     <div>
       <header className="mx-auto flex w-full items-center  justify-between py-3 px-4 md:px-5 lg:px-9">
         <div className="header__logo z-50 mt-2 cursor-pointer">
-          <Image
+          <img
             src="https://i.ibb.co/ZYfZQnb/PROTAROOM.png"
             width={127}
             height={42}
