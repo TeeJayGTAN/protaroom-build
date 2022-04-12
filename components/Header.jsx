@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { useState } from 'react'
 import HamburgerMenu from './HamburgerMenu'
-import logo from '../public/assets/images/protaroom-logo-sm.PNG'
+import logo from '../public/assets/images/protaroom.PNG'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
