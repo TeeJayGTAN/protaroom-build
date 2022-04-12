@@ -9,7 +9,7 @@ function Header() {
       <header className="mx-auto flex w-full items-center  justify-between py-3 px-4 md:px-5 lg:px-9">
         <div className="header__logo z-50 cursor-pointer">
           <Image
-            src={'/../public/assets/images/protaroom-logo-sm.png'}
+            src={'/./../public/assets/images/protaroom-logo-sm.png'}
             width={125}
             height={42}
             alt="protaroomIcon"
