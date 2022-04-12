@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { useState } from 'react'
 import HamburgerMenu from './HamburgerMenu'
+import logo from '../public/assets/images/protaroom-logo-sm.PNG'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -8,14 +9,7 @@ function Header() {
     <div>
       <header className="mx-auto flex w-full items-center  justify-between py-3 px-4 md:px-5 lg:px-9">
         <div className="header__logo z-50 mt-2 cursor-pointer">
-          <Image
-            src={
-              'https://drive.google.com/uc?id=18JhQQcCjXEAuqg4aiXQJioCYBexcluyb'
-            }
-            width={125}
-            height={42}
-            alt="protaroomIcon"
-          />
+          <Image src={logo} width={125} height={42} alt="protaroomIcon" />
         </div>
         <div
           className="header__menu z-50 cursor-pointer md:hidden "
