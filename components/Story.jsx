@@ -127,9 +127,9 @@ function Story() {
             </div>
           </div>
         </div>
-        <div className="about-img absolute -top-28 left-72 -z-20 mt-8 ml-auto h-auto w-3/5 opacity-90 md:right-6 md:max-w-sm md:opacity-70">
+        {/* <div className="about-img absolute -top-28 left-72 -z-20 mt-8 ml-auto h-auto w-3/5 opacity-90 md:right-6 md:max-w-sm md:opacity-70">
           <img src="https://i.ibb.co/52XGnzj/protaroom-icon-img.png" alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   )

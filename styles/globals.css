@@ -50,6 +50,7 @@ body {
 
 img {
   width: 100%;
+  height: auto;
 }
 
 ul {
@@ -240,17 +241,22 @@ ul {
 /* Hero section styles start*/
 
 .hero-bg-img {
-  background-image: url(../public/assets/images/hero/hero-art1.jpg);
-  background-position: center;
+  /*background-image: url(../public/assets/images/hero/hero-art1.jpg);*/
+  /* background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   position: absolute;
   top: 0;
   bottom: 0;
   height: 100vh;
   width: 100vw;
   opacity: 0.3;
+}
+
+.hero-bg-img div {
+  width: 100%;
+  height: 100%;
 }
 .hero__socialLinks {
   margin-top: -20px;
@@ -403,13 +409,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     display: flex;
   }
   .md\:flex-custom-md-w {
-    width: 30%;
+    width: 100%;
   }
   .md\:flex-custom-md-col {
     flex-direction: column;
   }
   .md\:flex-custom-md-col-gap {
-    gap: 2.5rem;
+    gap: 3.45rem;
   }
   .md\:mb-10-custom {
     margin-bottom: 0px;
@@ -418,14 +424,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .stage-icon {
   width: 256px;
+  border-style: dashed;
+  border-color: var(--accent-color);
 }
 .stage-icon img {
   width: 100%;
-}
-
-.stage-icon {
-  border-style: dashed;
-  border-color: var(--accent-color);
+  /*filter: brightness(0%);*/
 }
 
 .text-4xl-custom {
@@ -444,5 +448,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 @media (min-width: 965px) {
   .stage-icon {
     border-right-width: 2px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-1-custom {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    place-items: center;
+    width: 80%;
+    margin: 0 auto;
   }
 }

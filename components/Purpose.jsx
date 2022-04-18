@@ -20,9 +20,9 @@ function Purpose() {
           Corporate and Individual productivity with arty expressions.
         </p>
       </div>
-      <div className="about-img absolute -top-12 left-72 -z-10 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
+      {/* <div className="about-img absolute -top-12 left-72 -z-10 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
         <img src="https://i.ibb.co/52XGnzj/protaroom-icon-img.png" alt="" />
-      </div>
+      </div> */}
     </div>
   )
 }

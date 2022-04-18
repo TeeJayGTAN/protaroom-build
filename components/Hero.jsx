@@ -4,6 +4,9 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { FaPinterest } from 'react-icons/fa'
 import ReactTypingEffect from 'react-typing-effect'
+import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
+import { Carousel } from 'react-responsive-carousel'
+
 const words = [
   'We are all about the gladness of people',
   'We create experiential designs...',
@@ -15,8 +18,30 @@ const words = [
 function Hero() {
   return (
     <div className="hero min-h-custom mx-auto  flex w-screen flex-col items-center justify-evenly py-3 px-4 font-bold md:px-8">
-      <div className="hero-bg-img -z-50"></div>
-      <div className="hero__title z-0 max-w-md self-start text-4xl leading-normal  md:max-w-screen-xl md:px-5 md:text-5xl md:leading-normal  lg:px-9 lg:text-6xl lg:leading-relaxed">
+      <div className="hero-bg-img -z-50">
+        <Carousel
+          autoPlay
+          infiniteLoop
+          showThumbs={false}
+          stopOnHover={false}
+          swipeable
+          emulateTouch
+          showArrows={false}
+          showIndicators={false}
+          showStatus={false}
+        >
+          <div>
+            <img src="https://i.ibb.co/jRNS3Hv/D3.jpg" />
+          </div>
+          <div>
+            <img src="https://i.ibb.co/L6JQxDC/T11.png" />
+          </div>
+          <div>
+            <img src="https://i.ibb.co/5xwpGDr/B1-1.jpg" />
+          </div>
+        </Carousel>
+      </div>
+      <div className="hero__title z-0 max-w-md self-start text-4xl leading-normal  md:max-w-screen-xl md:px-5 md:text-5xl md:leading-normal  lg:px-9 lg:text-5xl lg:leading-relaxed">
         <h1>
           {/* We {`${words[index].substring(0, subIndex)}${blink ? '|' : ' '}`} */}
           {
@@ -72,9 +97,9 @@ function Hero() {
           </a>
         </span>
       </div>
-      <div className="about-img absolute -top-12 left-72 -z-50 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
+      {/* <div className="about-img absolute -top-12 left-72 -z-50 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
         <img src="https://i.ibb.co/52XGnzj/protaroom-icon-img.png" alt="" />
-      </div>
+      </div> */}
     </div>
   )
 }

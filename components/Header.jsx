@@ -12,7 +12,7 @@ function Header() {
       >
         <div className="header__logo z-50 mt-2 cursor-pointer">
           <img
-            src="https://i.ibb.co/ZYfZQnb/PROTAROOM.png"
+            src="https://i.ibb.co/VT3Skrb/protaroomlogo.png"
             width={127}
             height={42}
             alt="protaroomIcon"
