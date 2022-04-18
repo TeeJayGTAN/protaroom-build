@@ -36,9 +36,7 @@ function Hero() {
           <div>
             <img src="https://i.ibb.co/L6JQxDC/T11.png" />
           </div>
-          <div>
-            <img src="https://i.ibb.co/5xwpGDr/B1-1.jpg" />
-          </div>
+          {/* <div><img src="https://i.ibb.co/5xwpGDr/B1-1.jpg" /></div> */}
         </Carousel>
       </div>
       <div className="hero__title z-0 max-w-md self-start text-4xl leading-normal  md:max-w-screen-xl md:px-5 md:text-5xl md:leading-normal  lg:px-9 lg:text-5xl lg:leading-relaxed">

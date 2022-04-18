@@ -7,6 +7,7 @@ import Value from '../components/Value'
 import About from '../components/About'
 import Services from '../components/Services'
 import Story from '../components/Story'
+import Blog from '../components/Blog'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 import { Carousel } from 'react-responsive-carousel'
 
@@ -25,6 +26,7 @@ function Home() {
         <About />
         <Services />
         <Story />
+        <Blog />
         {/* <Carousel
           autoPlay
           infiniteLoop
