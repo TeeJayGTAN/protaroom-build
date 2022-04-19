@@ -241,11 +241,11 @@ ul {
 /* Hero section styles start*/
 
 .hero-bg-img {
-  /*background-image: url(../public/assets/images/hero/hero-art1.jpg);*/
-  /* background-position: center;
+  background-image: url(../public/assets/images/hero/hero-art1.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
   position: absolute;
   top: 0;
   bottom: 0;
