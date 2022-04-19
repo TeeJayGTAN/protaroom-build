@@ -423,9 +423,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .stage-icon {
-  width: 256px;
+  width: 256px !important;
   border-style: dashed;
   border-color: var(--accent-color);
+}
+.stage-icon1 {
 }
 .stage-icon img {
   width: 100%;
@@ -459,4 +461,58 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     width: 80%;
     margin: 0 auto;
   }
+}
+
+/*Blog section*/
+
+.blog-section {
+  min-height: 45vh;
+}
+
+.blog-section img {
+  width: 100%;
+  height: auto;
+}
+
+.blog__post-img {
+  width: 256px;
+  height: auto;
+}
+
+.blog__posts:hover .blog__post-title {
+  color: var(--accent-color);
+  transition: color 500ms ease;
+}
+
+.transition-all-cm {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cm {
+    display: grid !important;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    place-items: center;
+  }
+}
+
+/*Contact Section*/
+
+.contact-section span {
+  color: var(--accent-color);
+}
+
+/* Footer section*/
+
+.socialLinks span:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.footer-section li:hover {
+  color: var(--accent-color);
+  cursor: pointer;
 }

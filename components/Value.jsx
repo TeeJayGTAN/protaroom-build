@@ -1,7 +1,7 @@
 function Value() {
   return (
-    <div className="value__section">
-      <div className="mx-auto mb-14 px-4 md:max-w-7xl md:px-8 lg:px-9">
+    <div className="value__section md:-mb-6">
+      <div className="mx-auto  mb-14 px-4  md:max-w-7xl md:px-8 lg:px-9">
         <div className="value__title flex flex-col gap-3 md:w-2/6 ">
           <div className="value__title__icon ">
             <img src="https://i.ibb.co/gwMZ8Ng/value2.png" alt="pics" />
@@ -22,8 +22,8 @@ function Value() {
           </p>
         </div>
       </div>
-      <div className="value__sub-section md:flex md:w-full md:items-center md:justify-center">
-        <div className="people mx-auto mb-20 px-4 md:max-w-sm md:px-8 lg:px-9">
+      <div className="value__sub-section mx-auto justify-start  px-4  md:flex md:w-full md:max-w-7xl md:items-center md:justify-center md:gap-16  md:px-8 md:pb-12 lg:px-0">
+        <div className="people mx-auto mb-20 md:max-w-sm ">
           <div className="people__title__heading text-2xl font-medium leading-relaxed md:text-3xl">
             <div className="people-icon">
               <img src="https://i.ibb.co/ZmVXJM5/people.png" alt="" />
@@ -40,7 +40,7 @@ function Value() {
             </p>
           </div>
         </div>
-        <div className="people mx-auto mb-20 px-4 md:max-w-sm md:px-8 lg:px-9">
+        <div className="people mx-auto mb-20 md:max-w-sm ">
           <div className="people__title__heading text-2xl font-medium leading-relaxed md:text-3xl">
             <div className="people-icon">
               <img src="https://i.ibb.co/FHL8db8/result.png" alt="" />
@@ -57,7 +57,7 @@ function Value() {
             </p>
           </div>
         </div>
-        <div className="people mx-auto mb-20 px-4 md:max-w-sm md:px-8 lg:px-9">
+        <div className="people mx-auto mb-20 md:max-w-sm ">
           <div className="people__title__heading text-2xl font-medium leading-relaxed md:text-3xl">
             <div className="people-icon">
               <img src="https://i.ibb.co/bLsrgqV/excellence.png" alt="" />

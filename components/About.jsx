@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="relative mx-auto mb-20  px-4 md:max-w-7xl md:px-8 lg:px-9">
+    <div className="relative mx-auto mb-24  px-4 md:max-w-7xl md:px-8 lg:px-9">
       <div className="about__title mb-10 text-3xl font-medium md:text-4xl">
         <h2>About Us</h2>
       </div>

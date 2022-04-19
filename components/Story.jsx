@@ -21,7 +21,7 @@ function Story() {
             <div className="number absolute top-0 right-0 flex h-20 w-20 items-center justify-center rounded-full border text-center text-3xl shadow-lg md:-top-8">
               01
             </div>
-            <div className="stage-icon mx-auto md:w-2/6 md:justify-self-start md:border-r-0 md:pr-12">
+            <div className="stage-icon stage-icon1 mx-auto md:w-2/6 md:justify-self-start md:border-r-0 md:pr-12">
               <img src="https://i.ibb.co/NmXN2VJ/brief.png" alt="bulb" />
             </div>
             <div className="stage-content md:-ml-40 md:self-center ">
