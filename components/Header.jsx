@@ -1,5 +1,7 @@
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import Link from 'next/link'
+
 import HamburgerMenu from './HamburgerMenu'
 // import logo from '../public/assets/images/protaroom.PNG'
 
@@ -43,14 +45,16 @@ function Header() {
               <a href="#">About</a>
             </li>
             <li className="nav__link min-w-fit">
-              <a href="#">Blog</a>
+              <Link href="/blog-page">Blog</Link>
             </li>
             <li className="nav__link min-w-fit">
-              <a href="#">Contact</a>
+              <Link href="/contact-page">Contact</Link>
             </li>
-            <button className="md:w-39 btn-hire-us mt-3 w-full rounded py-2 px-5 text-center text-white md:mt-0">
-              Hire Us
-            </button>
+            <Link href="/contact-page">
+              <button className="md:w-39 btn-hire-us mt-3 w-full rounded py-2 px-5 text-center text-white md:mt-0">
+                Hire Us
+              </button>
+            </Link>
           </ul>
         </nav>
       </header>

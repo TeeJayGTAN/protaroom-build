@@ -1,15 +1,27 @@
 import Image from 'next/image'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 import { Carousel } from 'react-responsive-carousel'
 function Services() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
-    <div className="services md:flex-custom-md md:flex-custom-md-col-gap md:flex-custom-md-col   relative mx-auto mb-20 px-4 md:max-w-7xl md:px-8 lg:px-9">
-      <div className="services__title about__title md:mb-10-custom mb-12 text-3xl font-medium md:text-4xl">
+    <div className="services md:flex-custom-md md:flex-custom-md-col-gap md:flex-custom-md-col relative   mx-auto mb-20 px-4 font-medium md:max-w-7xl md:px-8 lg:px-9">
+      <div
+        data-aos="fade-up"
+        className="services__title about__title md:mb-10-custom mb-12 text-3xl font-medium md:text-4xl"
+      >
         <h2>Our Services</h2>
       </div>
       <div className="services__sections md:grid-cols-1-custom grid  place-items-center md:w-full">
-        <div className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7  md:mb-0 ">
-          <div className="service__section-img absolute top-0 left-0 -z-10">
+        <div
+          data-aos="fade-up"
+          className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7 shadow-lg  md:mb-0 "
+        >
+          <div className="service__section-img absolute top-0 left-0 -z-10 opacity-60 ">
             {/* <Image
               src="https://i.ibb.co/5r4Zq7s/96c8c78e6b1f64307f3ecaaf6ac5635c.jpg"
               width={450}
@@ -40,7 +52,7 @@ function Services() {
               </div>
             </Carousel>
           </div>
-          <div className="services__section-title w-full text-2xl font-medium leading-relaxed md:text-3xl">
+          <div className="services__section-title w-full text-2xl  leading-relaxed md:text-3xl">
             <h3>Digital Designs</h3>
           </div>
           <div className="services__section-body mt-5 w-full md:max-w-xs ">
@@ -53,8 +65,11 @@ function Services() {
             </p>
           </div>
         </div>
-        <div className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7  md:mb-0 ">
-          <div className="service__section-img absolute top-0 left-0 -z-10">
+        <div
+          data-aos="fade-up"
+          className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7 shadow-lg  md:mb-0 "
+        >
+          <div className="service__section-img absolute top-0 left-0 -z-10 opacity-60 ">
             {/* <Image
               src="https://i.ibb.co/5r4Zq7s/96c8c78e6b1f64307f3ecaaf6ac5635c.jpg"
               width={450}
@@ -84,7 +99,7 @@ function Services() {
               </div>
             </Carousel>
           </div>
-          <div className="services__section-title text-2xl font-medium leading-relaxed md:text-3xl">
+          <div className="services__section-title text-2xl  leading-relaxed md:text-3xl">
             <h3>Interior & Experiential Design</h3>
           </div>
           <div className="services__section-body mt-5 md:max-w-xs">
@@ -101,8 +116,11 @@ function Services() {
             </p>
           </div>
         </div>
-        <div className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7  md:mb-0 ">
-          <div className="service__section-img absolute top-0 left-0 -z-10">
+        <div
+          data-aos="fade-up"
+          className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7 shadow-lg  md:mb-0 "
+        >
+          <div className="service__section-img absolute top-0 left-0 -z-10 opacity-60 ">
             {/* <Image
               src="https://i.ibb.co/5r4Zq7s/96c8c78e6b1f64307f3ecaaf6ac5635c.jpg"
               width={450}
@@ -132,7 +150,7 @@ function Services() {
               </div>
             </Carousel>
           </div>
-          <div className="services__section-title text-2xl font-medium leading-relaxed md:text-3xl">
+          <div className="services__section-title text-2xl  leading-relaxed md:text-3xl">
             <h3>Brand</h3>
           </div>
           <div className="services__section-body mt-5 md:max-w-xs">
@@ -145,8 +163,11 @@ function Services() {
           </div>
         </div>
 
-        <div className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7  md:mb-0 ">
-          <div className="service__section-img absolute top-0 left-0 -z-10">
+        <div
+          data-aos="fade-up"
+          className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7 shadow-lg  md:mb-0 "
+        >
+          <div className="service__section-img absolute top-0 left-0 -z-10 opacity-60 ">
             {/* <Image
               src="https://i.ibb.co/5r4Zq7s/96c8c78e6b1f64307f3ecaaf6ac5635c.jpg"
               width={450}
@@ -176,7 +197,7 @@ function Services() {
               </div>
             </Carousel>
           </div>
-          <div className="services__section-title text-2xl font-medium leading-relaxed md:text-3xl">
+          <div className="services__section-title text-2xl  leading-relaxed md:text-3xl">
             <h3>Print Designs</h3>
           </div>
           <div className="services__section-body mt-5 md:max-w-xs">
@@ -188,8 +209,11 @@ function Services() {
             </p>
           </div>
         </div>
-        <div className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7  md:mb-0 ">
-          <div className="service__section-img absolute top-0 left-0 -z-10">
+        <div
+          data-aos="fade-up"
+          className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7 shadow-lg  md:mb-0 "
+        >
+          <div className="service__section-img absolute top-0 left-0 -z-10 opacity-60 ">
             {/* <Image
               src="https://i.ibb.co/5r4Zq7s/96c8c78e6b1f64307f3ecaaf6ac5635c.jpg"
               width={450}
@@ -219,7 +243,7 @@ function Services() {
               </div>
             </Carousel>
           </div>
-          <div className="services__section-title text-2xl font-medium leading-relaxed md:text-3xl">
+          <div className="services__section-title text-2xl  leading-relaxed md:text-3xl">
             <h3>Motion Graphics</h3>
           </div>
           <div className="services__section-body mt-5 md:max-w-xs">
@@ -231,8 +255,11 @@ function Services() {
             </p>
           </div>
         </div>
-        <div className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7  md:mb-0 ">
-          <div className="service__section-img absolute top-0 left-0 -z-10">
+        <div
+          data-aos="fade-up"
+          className="services__section md:flex-custom-md-w relative mb-10 max-w-md overflow-hidden rounded px-4 py-7 shadow-lg  md:mb-0 "
+        >
+          <div className="service__section-img absolute top-0 left-0 -z-10 opacity-60 ">
             {/* <Image
               src="https://i.ibb.co/5r4Zq7s/96c8c78e6b1f64307f3ecaaf6ac5635c.jpg"
               width={450}
@@ -262,7 +289,7 @@ function Services() {
               </div>
             </Carousel>
           </div>
-          <div className="services__section-title text-2xl font-medium leading-relaxed md:text-3xl">
+          <div className="services__section-title text-2xl  leading-relaxed md:text-3xl">
             <h3>Artworks Design and Installation</h3>
           </div>
           <div className="services__section-body mt-5 md:max-w-xs">

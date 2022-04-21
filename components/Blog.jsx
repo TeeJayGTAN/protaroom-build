@@ -1,8 +1,17 @@
 import React from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 function Blog() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
-    <div className="blog__posts transition-all-cm mb-10 flex flex-col items-center overflow-hidden rounded bg-gray-200 py-8 px-2 shadow-lg hover:scale-105 hover:cursor-pointer md:py-8 md:px-6">
+    <div
+      data-aos="fade-up"
+      className="blog__posts transition-all-cm mb-10 flex flex-col items-center overflow-hidden rounded bg-gray-200 py-8 px-2 shadow-lg hover:cursor-pointer md:py-8 md:px-6"
+    >
       <div className="blog__post-img pointer-events-none">
         <img
           className="rounded"

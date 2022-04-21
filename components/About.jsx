@@ -1,6 +1,27 @@
+import { useState, useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+  const [display, setDisplay] = useState(false)
+  const text = `Our proposition is unique, as we leverage on our depth of digital
+            versatilities (from research to implementation) in creating an
+            impressive experience for our clients, reflecting our deep
+            conviction that great design cannot happen without understanding
+            people, having passion, creative intelligence and above all personal
+            assurance. We are a community of designers, with a cumulative work experience
+            that span over a decade of creating bespoke creatives across several
+            sectors. Our partners are all practicing designers, and whether
+            working collaboratively or independently, innovating remarkable
+            impressions and experiences.`
   return (
-    <div className="relative mx-auto mb-24  px-4 md:max-w-7xl md:px-8 lg:px-9">
+    <div
+      data-aos="fade-left"
+      className="relative mx-auto mb-24  px-4 md:max-w-7xl md:px-8 lg:px-9"
+    >
       <div className="about__title mb-10 text-3xl font-medium md:text-4xl">
         <h2>About Us</h2>
       </div>
@@ -18,21 +39,15 @@ function About() {
             Graphics, Identity Strategy and Positioning, Exhibitions and
             Installations, Brand, Business Architecture and Digital experiences
           </p>
-          <p>
-            Our proposition is unique, as we leverage on our depth of digital
-            versatilities (from research to implementation) in creating an
-            impressive experience for our clients, reflecting our deep
-            conviction that great design cannot happen without understanding
-            people, having passion, creative intelligence and above all personal
-            assurance.
-          </p>
-          <p>
-            We are a community of designers, with a cumulative work experience
-            that span over a decade of creating bespoke creatives across several
-            sectors. Our partners are all practicing designers, and whether
-            working collaboratively or independently, innovating remarkable
-            impressions and experiences.
-          </p>
+          <p>{display ? text : ''}</p>
+          <div className="readmore-btn mt-6 w-full text-left">
+            <button
+              className="md:w-39 btn-hire-us mt-3 w-2/6 rounded py-2 px-5 text-center text-white md:mt-0 md:w-1/6"
+              onClick={() => setDisplay(!display)}
+            >
+              {display ? 'View Less' : 'View More'}
+            </button>
+          </div>
         </div>
         {/* <div className="about-img absolute -top-28 left-72 -z-10 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
           <img src="https://i.ibb.co/52XGnzj/protaroom-icon-img.png" alt="" />

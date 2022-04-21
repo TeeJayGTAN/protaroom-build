@@ -3,14 +3,20 @@ import { FaFacebookF } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { FaPinterest } from 'react-icons/fa'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 function Footer() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
     <div className="bg-gray-200">
-      <footer className=" mx-auto bg-gray-200 px-4 pt-20 pb-10 md:max-w-7xl md:px-8 lg:px-9">
+      <footer className=" mx-auto bg-gray-200 px-4 pt-10 pb-10 md:max-w-7xl md:px-8 lg:px-9">
         <div className="mb-5 md:flex md:w-full md:items-center md:justify-between">
-          <div className="about md:w-4/12 md:max-w-md">
-            <div className="about__title mb-10 text-3xl font-medium md:text-4xl">
+          <div data-aos="fade-up" className="about md:w-4/12 md:max-w-md">
+            <div className=" mb-6 text-2xl font-medium md:text-3xl">
               <h2>About Us</h2>
             </div>
             <div className="leading-relaxed">
@@ -24,8 +30,8 @@ function Footer() {
             </div>
           </div>
           <div className="footer-sections  mt-10 flex justify-between md:w-8/12 md:max-w-lg">
-            <div className="footer-section md:max-w-sm">
-              <div className="footer-section-title about__title mb-10 text-3xl font-medium md:text-4xl">
+            <div data-aos="fade-up" className="footer-section  md:max-w-sm">
+              <div className="footer-section-title mb-6 text-2xl font-medium md:text-3xl">
                 <h2>Services</h2>
               </div>
               <ul className="leading-loose">
@@ -37,8 +43,8 @@ function Footer() {
                 <li>Art and Animation</li>
               </ul>
             </div>
-            <div className="footer-section md:max-w-sm">
-              <div className="footer-section-title about__title mb-10 text-3xl font-medium md:text-4xl">
+            <div data-aos="fade-up" className="footer-section md:max-w-sm">
+              <div className="footer-section-title mb-6 text-2xl font-medium md:text-3xl">
                 <h2>Quick Links</h2>
               </div>
               <ul className="leading-loose">

@@ -1,11 +1,23 @@
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 function Story() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
     <div>
       <div className="story relative mx-auto mb-20 px-4 md:max-w-7xl md:px-8 lg:px-9">
-        <div className="story__title about__title md:mb-10-custom mb-10 text-3xl font-medium md:text-4xl">
+        <div
+          data-aos="fade-up"
+          className="story__title about__title md:mb-10-custom mb-10 text-3xl font-medium md:text-4xl"
+        >
           <h2>Our Value Story</h2>
         </div>
-        <div className="story__body mt-10 leading-8 md:w-4/6 md:text-lg md:leading-10">
+        <div
+          data-aos="fade-up"
+          className="story__body mt-10 leading-8 md:w-4/6 md:text-lg md:leading-10"
+        >
           <p>
             Behind every bespoke design that we construct lies an innovative
             design process. We prioritise understanding our client’s
@@ -17,7 +29,10 @@ function Story() {
         </div>
 
         <div className="design-process md:mx-auto">
-          <div className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl ">
+          <div
+            data-aos="fade-up"
+            className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl "
+          >
             <div className="number absolute top-0 right-0 flex h-20 w-20 items-center justify-center rounded-full border text-center text-3xl shadow-lg md:-top-8">
               01
             </div>
@@ -39,7 +54,10 @@ function Story() {
               </div>
             </div>
           </div>
-          <div className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl ">
+          <div
+            data-aos="fade-left"
+            className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl "
+          >
             <div className="number absolute top-0 right-0 flex h-20 w-20 items-center justify-center rounded-full border text-center text-3xl shadow-lg md:-top-8">
               02
             </div>
@@ -60,7 +78,10 @@ function Story() {
               </div>
             </div>
           </div>
-          <div className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl ">
+          <div
+            data-aos="fade-right"
+            className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl "
+          >
             <div className="number absolute top-0 right-0 flex h-20 w-20 items-center justify-center rounded-full border text-center text-3xl shadow-lg md:-top-8">
               03
             </div>
@@ -83,7 +104,10 @@ function Story() {
               </div>
             </div>
           </div>
-          <div className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl ">
+          <div
+            data-aos="fade-left"
+            className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl "
+          >
             <div className="number absolute top-0 right-0 flex h-20 w-20 items-center justify-center rounded-full border text-center text-3xl shadow-lg md:-top-8">
               04
             </div>
@@ -105,7 +129,10 @@ function Story() {
               </div>
             </div>
           </div>
-          <div className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl ">
+          <div
+            data-aos="fade-right"
+            className="stage relative mt-10 md:mt-24  md:flex md:max-w-5xl "
+          >
             <div className="number absolute top-0 right-0 flex h-20 w-20 items-center justify-center rounded-full border text-center text-3xl shadow-lg md:-top-8">
               05
             </div>

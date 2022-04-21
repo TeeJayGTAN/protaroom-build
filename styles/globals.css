@@ -41,6 +41,7 @@
 
 html,
 body {
+  scroll-behaviour: smooth !important;
   font-family: 'Larsseit', serif;
   min-height: 100vh;
   overflow-x: hidden;
@@ -479,6 +480,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   height: auto;
 }
 
+.blog__posts:hover {
+  transform: scale(1.1) !important;
+}
+
 .blog__posts:hover .blog__post-title {
   color: var(--accent-color);
   transition: color 500ms ease;
@@ -515,4 +520,86 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .footer-section li:hover {
   color: var(--accent-color);
   cursor: pointer;
+}
+
+/*Contact pagee*/
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-input-group input,
+.form-input-group textarea {
+  border-color: rgba(15, 33, 47, 0.15);
+}
+
+.form-input-group label {
+  pointer-events: none;
+}
+.form-input-group input:focus {
+  border-color: var(--accent-color);
+}
+.form-input-group textarea:focus {
+  border-color: var(--accent-color);
+}
+.form-input-group input:focus + label {
+  transform: translateY(-25px) scale(0.8);
+  transition: transform 0.3s ease;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.label-animation {
+  transform: translateY(-25px) scale(0.8);
+  transition: transform 0.3s ease;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.form-input-group textarea:focus + label {
+  transform: translateY(-25px) scale(0.8);
+  transition: transform 0.3s ease;
+  background-color: white;
+  padding: 0 5px;
+}
+
+/* Blog page*/
+
+.active {
+  background-color: white;
+  color: var(--accent-color);
+}
+
+.category-item:hover {
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+}
+
+.blogpostcardimage {
+  width: 280px;
+  height: 180px;
+}
+
+/*@media (min-width: 950px) {
+  .blogpostcardimage {
+    width: 350px;
+    height: 225px;
+  }
+}*/
+
+.blogpostcardimage img {
+  width: 100%;
+  height: 100%;
+}
+.blogpostcard {
+  transition: box-shadow 300ms ease;
+}
+.blogpostcard .some-title {
+  transition: color 300ms ease;
+}
+.blogpostcard:hover .some-title {
+  color: var(--accent-color);
 }
