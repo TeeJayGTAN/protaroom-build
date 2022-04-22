@@ -2,16 +2,20 @@ import Head from 'next/head'
 import BlogPosts from '../components/BlogPosts'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+// import Navigation from 'react-sticky-nav'
+// import { css, jsx } from '@emotion/core'
 // import Header from '../components/Header.jsx'
 
 function blog() {
   return (
-    <div className="">
+    <div className="relative">
       <Head>
         <title>Protaroom | Blog</title>
         <link rel="icon" href="https://i.ibb.co/zZYvg9G/protaroomfavicon.png" />
       </Head>
+
       <Header />
+
       <div className="mt-4 bg-gray-100 px-4 ">
         <div className="categories-nav mx-auto max-w-screen-md py-4  lg:max-w-screen-lg">
           <div className="category-items md:text-md grid grid-cols-3 place-items-start md:grid-cols-4 lg:grid-cols-7 lg:text-sm">

@@ -8,7 +8,7 @@ import HamburgerMenu from './HamburgerMenu'
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-    <div>
+    <div className="">
       <header
         className={`mx-auto flex w-full items-center  justify-between py-3 px-4 md:px-5 lg:px-9`}
       >
@@ -34,15 +34,15 @@ function Header() {
         >
           <ul className="nav__links md:text-sm-custom my-10 flex  flex-col items-start justify-evenly gap-10 text-lg font-medium sm:h-1/5  md:my-0 md:mt-0  md:flex-row md:items-center">
             <li className="nav__link min-w-fit">
-              <a href="#" className="">
+              <Link href="/story-page" className="">
                 Value Story
-              </a>
+              </Link>
             </li>
             <li className="nav__link min-w-fit">
-              <a href="#">Services</a>
+              <Link href="/service-page">Services</Link>
             </li>
             <li className="nav__link min-w-fit">
-              <a href="#">About</a>
+              <Link href="/about-page">About</Link>
             </li>
             <li className="nav__link min-w-fit">
               <Link href="/blog-page">Blog</Link>
