@@ -20,7 +20,7 @@ function About() {
   return (
     <div
       data-aos="fade-left"
-      className="relative mx-auto mb-24  px-4 md:max-w-7xl md:px-8 lg:px-9"
+      className="relative mx-auto  px-4 md:max-w-7xl md:px-8 lg:px-9"
     >
       <div className="mb-10 text-3xl font-medium md:text-4xl">
         <h2>About Us</h2>
@@ -50,7 +50,10 @@ function About() {
             </button>
           </div>
         </div>
-        <div className="about-img sm:max-w-xs-cm -top-4 left-72 -z-10 mt-8 ml-auto h-auto w-3/5  opacity-0 md:absolute md:right-6 md:h-auto md:max-w-sm md:opacity-100">
+        <div
+          data-aos="zoom-in"
+          className="about-img sm:max-w-xs-cm -top-4 left-72 -z-10 mt-8 ml-auto h-auto w-3/5  opacity-0 md:absolute md:right-6 md:h-auto md:max-w-sm md:opacity-100"
+        >
           <img
             className="overflow-hidden rounded "
             src="https://i.ibb.co/jRNS3Hv/D3.jpg"
