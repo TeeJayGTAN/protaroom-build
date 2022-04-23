@@ -80,7 +80,11 @@ function Value() {
         // data-aos="fade-left"
         className="about-img absolute top-4 left-72 -z-10 mt-8 ml-auto h-auto w-3/5 opacity-0  md:right-6 md:max-w-xs md:opacity-40"
       >
-        <img className="" src="https://i.ibb.co/J21pLNQ/value.png" alt="" />
+        <img
+          className=""
+          src="https://i.ibb.co/J21pLNQ/value.png"
+          alt="Value"
+        />
       </div>
     </div>
   )

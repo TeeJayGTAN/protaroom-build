@@ -35,8 +35,8 @@ function Purpose() {
       >
         <img
           className=""
-          src="https://i.ibb.co/x8HfYfH/design-thinking.png"
-          alt=""
+          src="https://i.ibb.co/yWhBy9Q/decorating.png"
+          alt="Design thinking"
         />
       </div>
     </div>
