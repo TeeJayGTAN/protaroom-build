@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+// import logo from '../public/assets/images/logo.svg'
 
 import HamburgerMenu from './HamburgerMenu'
 // import logo from '../public/assets/images/protaroom.PNG'
@@ -13,12 +14,15 @@ function Header() {
         className={`mx-auto flex w-full items-center  justify-between py-3 px-4 md:px-5 lg:px-9`}
       >
         <div className="header__logo z-50 mt-2 cursor-pointer">
-          <img
-            src="https://i.ibb.co/VT3Skrb/protaroomlogo.png"
-            width={127}
-            height={42}
-            alt="protaroomIcon"
-          />
+          <Link href="/">
+            <img
+              src="https://i.ibb.co/VT3Skrb/protaroomlogo.png"
+              // src={}
+              width={127}
+              height={42}
+              alt="protaroomIcon"
+            />
+          </Link>
         </div>
         <div
           className="header__menu z-50 cursor-pointer md:hidden "
