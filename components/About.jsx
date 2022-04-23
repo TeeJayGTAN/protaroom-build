@@ -51,7 +51,7 @@ function About() {
           </div>
         </div>
         <div
-          data-aos="zoom-in"
+          // data-aos="zoom-in"
           className="about-img sm:max-w-xs-cm -top-4 left-72 -z-10 mt-8 ml-auto h-auto w-3/5  opacity-0 md:absolute md:right-6 md:h-auto md:max-w-sm md:opacity-100"
         >
           <img
