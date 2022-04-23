@@ -3,6 +3,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Header from '../components/Header'
 import Link from 'next/link'
+import Head from 'next/head'
 import {
   FaFacebookF,
   FaInstagram,
@@ -27,7 +28,11 @@ function about() {
               working collaboratively or independently, innovating remarkable
               impressions and experiences.`
   return (
-    <div className="overflow-hidden">
+    <div className="relative">
+      <Head>
+        <title>Protaroom | About </title>
+        <link rel="icon" href="https://i.ibb.co/zZYvg9G/protaroomfavicon.png" />
+      </Head>
       <Header />
       <div
         data-aos="fade-left"

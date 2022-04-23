@@ -3,14 +3,19 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import Head from 'next/head'
 function story() {
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
   return (
-    <div>
+    <div className="relative">
+      <Head>
+        <title>Protaroom | Value Story </title>
+        <link rel="icon" href="https://i.ibb.co/zZYvg9G/protaroomfavicon.png" />
+      </Head>
       <Header />
-      <div className="story relative mx-auto mb-32 mt-40 px-4 md:max-w-7xl md:px-8 lg:px-9">
+      <div className="story relative mx-auto mb-32 mt-20 px-4 md:max-w-7xl md:px-8 lg:px-9">
         <div
           data-aos="fade-up"
           className="story__title  md:mb-10-custom mb-10  text-3xl font-medium md:text-4xl"

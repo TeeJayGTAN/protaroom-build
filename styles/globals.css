@@ -652,3 +652,8 @@ input:-webkit-autofill:active {
     height: auto;
   }
 }
+.overflow-hidden-cm {
+  overflow: hidden !important;
+  max-width: 100vw;
+  min-height: 100vh;
+}

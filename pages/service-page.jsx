@@ -7,12 +7,18 @@ import { Carousel } from 'react-responsive-carousel'
 import Header from '../components/Header'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import Head from 'next/head'
+
 function service() {
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
   return (
-    <div className="oveflow-hidden">
+    <div className="relative">
+      <Head>
+        <title>Protaroom | Service </title>
+        <link rel="icon" href="https://i.ibb.co/zZYvg9G/protaroomfavicon.png" />
+      </Head>
       <Header />
       <div className="services md:flex-custom-md md:flex-custom-md-col-gap md:flex-custom-md-col mx-auto mt-20   mb-20 overflow-hidden px-4 font-medium md:max-w-7xl">
         <div
