@@ -13,7 +13,7 @@ function story() {
       <div className="story relative mx-auto mb-32 mt-40 px-4 md:max-w-7xl md:px-8 lg:px-9">
         <div
           data-aos="fade-up"
-          className="story__title about__title md:mb-10-custom mb-10  text-3xl font-medium md:text-4xl"
+          className="story__title  md:mb-10-custom mb-10  text-3xl font-medium md:text-4xl"
         >
           <h2>Our Value Story</h2>
         </div>

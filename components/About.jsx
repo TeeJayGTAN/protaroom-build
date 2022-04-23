@@ -22,11 +22,12 @@ function About() {
       data-aos="fade-left"
       className="relative mx-auto mb-24  px-4 md:max-w-7xl md:px-8 lg:px-9"
     >
-      <div className="about__title mb-10 text-3xl font-medium md:text-4xl">
+      <div className="mb-10 text-3xl font-medium md:text-4xl">
         <h2>About Us</h2>
       </div>
+      {/* purpose__body mt-4 leading-8 md:w-4/6 md:text-lg md:leading-10  */}
       <div className="about-body-section w-full  overflow-hidden md:flex md:items-center md:justify-between">
-        <div className="about__body flex flex-col gap-3 leading-relaxed md:max-w-screen-md md:items-center">
+        <div className="about__body flex flex-col gap-3 leading-8 md:w-4/6 md:max-w-screen-md  md:items-center  md:text-lg md:leading-10">
           <p>
             Welcome to Protaroom, an interdisciplinary design and recreation
             company with a human-centered approach to interior and experiential
@@ -49,9 +50,13 @@ function About() {
             </button>
           </div>
         </div>
-        {/* <div className="about-img absolute -top-28 left-72 -z-10 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
-          <img src="https://i.ibb.co/52XGnzj/protaroom-icon-img.png" alt="" />
-        </div> */}
+        <div className="about-img sm:max-w-xs-cm -top-4 left-72 -z-10 mt-8 ml-auto h-auto w-3/5  opacity-0 md:absolute md:right-6 md:h-auto md:max-w-sm md:opacity-100">
+          <img
+            className="overflow-hidden rounded "
+            src="https://i.ibb.co/jRNS3Hv/D3.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   )

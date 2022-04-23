@@ -423,6 +423,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 }
 
+@media (min-width: 640px) {
+  .sm\:max-w-xs-cm {
+    max-width: 20rem /* 320px */;
+    opacity: 0 !important;
+  }
+}
+@media (min-width: 1024px) {
+  .sm\:max-w-xs-cm {
+    max-width: 24rem /* 320px */;
+    opacity: 1 !important;
+  }
+}
+
 .stage-icon {
   width: 256px !important;
   border-style: dashed;

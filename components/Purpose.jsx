@@ -29,10 +29,19 @@ function Purpose() {
           Corporate and Individual productivity with arty expressions.
         </p>
       </div>
-      {/* <div className="about-img absolute -top-12 left-72 -z-10 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
-        <img src="https://i.ibb.co/52XGnzj/protaroom-icon-img.png" alt="" />
-      </div> */}
+      <div
+        // data-aos="fade-left"
+        className="about-img absolute top-20 left-72 -z-10 mt-8 ml-auto h-auto w-3/5 opacity-0 md:right-6 md:max-w-xs"
+      >
+        <img
+          className="md:opacity-50"
+          src="https://i.ibb.co/x8HfYfH/design-thinking.png"
+          alt=""
+        />
+      </div>
     </div>
+    // https://i.ibb.co/yWhBy9Q/decorating.png
+    // https://i.ibb.co/x8HfYfH/design-thinking.png
   )
 }
 
