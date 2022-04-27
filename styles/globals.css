@@ -266,6 +266,18 @@ ul {
   width: 100vw;
   opacity: 0.3;
 }
+.val-story-bg-img {
+  position: absolute;
+  /* background-color: rgb(229 231 235); */
+  top: 0;
+  width: 95%;
+  height: 18%;
+  z-index: -999;
+  opacity: 0.35;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../public/assets/images/hero/hero-art1.jpg);
+}
 
 .hero-bg-img div {
   width: 100%;
@@ -783,4 +795,13 @@ input:-webkit-autofill:active {
 
 .s-card:hover img {
   transform: scale(1.25);
+}
+.overlaystory {
+  background-color: rgba(229, 231, 235, 0.35);
+}
+
+@media (max-width: 648px) {
+  .pt-cm {
+    padding-top: 4rem /* 64px */;
+  }
 }

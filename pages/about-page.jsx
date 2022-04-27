@@ -38,7 +38,7 @@ function about() {
         <div className="">
           <div
             data-aos="fade-up"
-            className="purp grid grid-cols-1 md:grid-cols-2 md:place-items-start"
+            className="purp mx-auto grid grid-cols-1 md:w-4/5 md:grid-cols-2 md:place-items-start"
           >
             <div className="text-3xl font-medium md:max-w-sm md:text-4xl md:leading-relaxed ">
               <h2>What is Our Purpose?</h2>
@@ -55,7 +55,7 @@ function about() {
           </div>
           <div
             data-aos="fade-up"
-            className="val mt-10 grid grid-cols-1 md:grid-cols-2 md:place-items-start"
+            className="val mx-auto mt-10 grid grid-cols-1 md:w-4/5 md:grid-cols-2 md:place-items-start"
           >
             <div className="text-3xl font-medium md:max-w-sm md:text-4xl md:leading-relaxed">
               <h2>What are Our Values?</h2>

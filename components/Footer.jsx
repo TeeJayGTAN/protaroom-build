@@ -45,7 +45,7 @@ function Footer() {
                   </a>
                 </li>
                 <li className="max-w-xs">
-                  <b>Address:</b> 12 Soso Street, Off District Avenue
+                  <b>Address:</b> <br /> 12 Soso Street, Off District Avenue
                 </li>
               </ul>
             </div>
@@ -83,7 +83,7 @@ function Footer() {
             Copyright &copy; 2022 Protaroom. All Rights Reserved.
           </p>
 
-          <div className="socialLinks mb-0 flex items-center gap-10 pt-4 md:mt-0">
+          <div className="socialLinks mb-0 flex items-center justify-center gap-10 pt-4 md:mt-0">
             <span className="">
               <a
                 target="_blank"

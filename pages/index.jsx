@@ -30,10 +30,10 @@ export default function Home({ posts }) {
         <Showservices />
         {/* <Purpose />
         <Value /> */}
-        <Bodyhomepage />
+        {/* <Bodyhomepage /> */}
         {/* <About /> */}
         {/* <Services /> */}
-        <Story />
+        {/* <Story /> */}
         {/* <Blogs posts={posts} /> */}
         <Contact />
         <Footer />
