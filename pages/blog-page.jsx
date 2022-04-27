@@ -10,7 +10,10 @@ import 'aos/dist/aos.css'
 // import { css, jsx } from '@emotion/core'
 // import Header from '../components/Header.jsx'
 
-function blog() {
+import { sanityClient } from '../sanity'
+import Link from 'next/link'
+
+export default function blog({ posts }) {
   const [isBlogClicked, setIsBlogClicked] = useState(false)
   useEffect(() => {
     Aos.init({ duration: 2000 })
@@ -35,7 +38,7 @@ function blog() {
             <div
               className={`category-item my-5 cursor-pointer  rounded px-3 py-1`}
             >
-              Art and Animation
+              Artworks Design
             </div>
             <div
               className={`category-item my-5 cursor-pointer  rounded px-3 py-1`}
@@ -66,7 +69,7 @@ function blog() {
         </div>
       </div>
       <div className="mt-20 px-4">
-        <BlogPosts />
+        <BlogPosts posts={posts} />
       </div>
       <div className="mt-20">
         <Footer />
@@ -74,5 +77,23 @@ function blog() {
     </div>
   )
 }
+export const getServerSideProps = async () => {
+  const query = `*[_type == "post"] {
+    _id,
+    title,
+    mainImage,
+    description,
+    slug,
+    author -> {
+    name,
+    image
+  }
+  }`
 
-export default blog
+  const posts = await sanityClient.fetch(query)
+  return {
+    props: {
+      posts,
+    },
+  }
+}
