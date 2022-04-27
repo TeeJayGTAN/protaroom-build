@@ -7,7 +7,7 @@ function contact() {
     <div>
       <Head>
         <title>Protaroom | Contact</title>
-        <link rel="icon" href="https://i.ibb.co/zZYvg9G/protaroomfavicon.png" />
+        <link rel="icon" href="../favicon2.png" />
       </Head>
       <Form />
       <Footer />

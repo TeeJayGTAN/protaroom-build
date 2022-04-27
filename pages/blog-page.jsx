@@ -19,7 +19,7 @@ function blog() {
     <div className="relative">
       <Head>
         <title>Protaroom | Blog</title>
-        <link rel="icon" href="https://i.ibb.co/zZYvg9G/protaroomfavicon.png" />
+        <link rel="icon" href="../favicon2.png" />
       </Head>
 
       <Header />
