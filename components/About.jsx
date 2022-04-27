@@ -27,7 +27,7 @@ function About() {
       </div>
       {/* purpose__body mt-4 leading-8 md:w-4/6 md:text-lg md:leading-10  */}
       <div className="about-body-section w-full  overflow-hidden md:flex md:items-center md:justify-between">
-        <div className="about__body flex flex-col gap-3 leading-8 md:w-4/6 md:max-w-screen-md  md:items-center  md:text-lg md:leading-10">
+        <div className="about__body flex flex-col gap-3 leading-normal md:w-4/6 md:max-w-screen-md  md:items-center  md:text-lg md:leading-relaxed">
           <p>
             Welcome to Protaroom, an interdisciplinary design and recreation
             company with a human-centered approach to interior and experiential
@@ -43,7 +43,7 @@ function About() {
           <p>{display ? text : ''}</p>
           <div className="readmore-btn mt-6 w-full text-left">
             <button
-              className="md:w-39 btn-hire-us mt-3 w-2/6 rounded py-2 px-5 text-center text-white md:mt-0 md:w-1/6"
+              className=" btn-hire-us mt-3 w-2/6 rounded py-2 px-5 text-center text-white md:mt-0 md:w-2/6"
               onClick={() => setDisplay(!display)}
             >
               {display ? 'View Less' : 'View More'}

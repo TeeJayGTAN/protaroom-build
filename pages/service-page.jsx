@@ -20,7 +20,7 @@ function service() {
         <link rel="icon" href="https://i.ibb.co/zZYvg9G/protaroomfavicon.png" />
       </Head>
       <Header />
-      <div className="services md:flex-custom-md md:flex-custom-md-col-gap md:flex-custom-md-col mx-auto mt-20   mb-20 overflow-hidden px-4 font-medium md:max-w-7xl">
+      <div className="services md:flex-custom-md md:flex-custom-md-col-gap md:flex-custom-md-col mx-auto mt-20   mb-16 overflow-hidden px-4 font-medium md:max-w-7xl">
         <div
           data-aos="fade-up"
           className="services__title  md:mb-10-custom mb-12 text-3xl font-medium md:text-4xl"

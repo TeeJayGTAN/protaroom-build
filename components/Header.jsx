@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-// import logo from '../public/assets/images/logo.svg'
 
 import HamburgerMenu from './HamburgerMenu'
 // import logo from '../public/assets/images/protaroom.PNG'
@@ -15,13 +14,7 @@ function Header() {
       >
         <div className="header__logo z-50 mt-2 cursor-pointer">
           <Link href="/">
-            <img
-              src="https://i.ibb.co/VT3Skrb/protaroomlogo.png"
-              // src={}
-              width={127}
-              height={42}
-              alt="protaroomIcon"
-            />
+            <img src={'../protaroomlogoreal2.png'} alt="protaroomIcon" />
           </Link>
         </div>
         <div

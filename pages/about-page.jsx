@@ -34,107 +34,53 @@ function about() {
         <link rel="icon" href="https://i.ibb.co/zZYvg9G/protaroomfavicon.png" />
       </Head>
       <Header />
-      <div
-        data-aos="fade-left"
-        className="relative mx-auto mb-24 mt-24 px-4 md:max-w-7xl md:px-8 lg:px-9"
-      >
-        <div className=" mb-10 text-4xl font-medium md:text-6xl">
-          <h2>About Us</h2>
-        </div>
-        <div className="about-body-section w-full  overflow-hidden md:flex md:items-center md:justify-between">
-          <div className="about__body flex flex-col gap-3 leading-relaxed md:max-w-screen-md md:items-center">
-            <p className=" leading-8 md:text-lg md:leading-10">
-              Welcome to Protaroom, an interdisciplinary design and recreation
-              company with a human-centered approach to interior and
-              experiential design. We strongly believe that the human experience
-              must be the driving force behind every element of a design––from
-              ideation to the qualities of interaction, expectation, and
-              intention.
-            </p>
-            <p className=" leading-8 md:text-lg md:leading-10">
-              Our work covers Interior design, Animation, Art, Illustration,
-              Graphics, Identity Strategy and Positioning, Exhibitions and
-              Installations, Brand, Business Architecture and Digital
-              experiences
-            </p>
-            <p className=" leading-8 md:text-lg md:leading-10">
-              {display ? text : ''}
-            </p>
-            <div className="readmore-btn mt-6 w-full text-left">
-              <button
-                className="md:w-39 btn-hire-us mt-3 w-2/6 rounded py-2 px-5 text-center text-white md:mt-0 md:w-1/6"
-                onClick={() => setDisplay(!display)}
-              >
-                {display ? 'View Less' : 'View More'}
-              </button>
+      <div className="mx-auto mb-16 mt-10 px-4 md:max-w-7xl md:px-8 lg:px-9">
+        <div className="">
+          <div
+            data-aos="fade-up"
+            className="purp grid grid-cols-1 md:grid-cols-2 md:place-items-start"
+          >
+            <div className="text-3xl font-medium md:max-w-sm md:text-4xl md:leading-relaxed ">
+              <h2>What is Our Purpose?</h2>
+            </div>
+            <div className="purp-body mt-5 leading-7 md:leading-8">
+              <p>
+                To grow human capabilities for the best environment, we believe
+                that the best environment is state, where people are highly and
+                increasingly productive, so our Core Business is to creatively
+                inspire Corporate and Individual productivity, with arty
+                expressions.
+              </p>
             </div>
           </div>
-          {/* <div className="about-img absolute -top-28 left-72 -z-10 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
-          <img src="https://i.ibb.co/52XGnzj/protaroom-icon-img.png" alt="" />
-        </div> */}
-        </div>
-      </div>
-      <div
-        data-aos="fade-up"
-        className="relative mx-auto mb-20 flex flex-col gap-3 px-4 pt-0 md:max-w-7xl md:flex-col md:px-8  lg:px-9"
-      >
-        <div className="purpose__title flex flex-col  md:w-2/6 ">
-          <div className="purpose__title__icon ml-2">
-            {/* <AiOutlineAim size={100} /> */}
-            <img
-              src="https://i.ibb.co/6wP59Mb/purpose.png"
-              alt="purpose pics"
-            />
-          </div>
-          <div className="purpose__title__heading text-3xl font-medium md:py-2 md:text-4xl">
-            <h2>Our Purpose</h2>
-          </div>
-        </div>
-        <div className="purpose__body mt-4 leading-8 md:w-4/6 md:text-lg md:leading-10 ">
-          <p>
-            To grow human capabilities for the best environment. We believe that
-            the best environment is the state where people are highly and
-            increasingly productive, so our core business is to creatively
-            inspire Corporate and Individual productivity with arty expressions.
-          </p>
-        </div>
-        {/* <div className="about-img absolute -top-12 left-72 -z-10 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
-        <img src="https://i.ibb.co/52XGnzj/protaroom-icon-img.png" alt="" />
-      </div> */}
-      </div>
-      <div data-aos="fade-up" className="value__section md:-mb-6">
-        <div className="mx-auto  mb-14 px-4  md:max-w-7xl md:px-8 lg:px-9">
-          <div className="value__title flex flex-col gap-3 md:w-2/6 ">
-            <div className="value__title__icon ">
-              <img src="https://i.ibb.co/gwMZ8Ng/value2.png" alt="pics" />
+          <div
+            data-aos="fade-up"
+            className="val mt-10 grid grid-cols-1 md:grid-cols-2 md:place-items-start"
+          >
+            <div className="text-3xl font-medium md:max-w-sm md:text-4xl md:leading-relaxed">
+              <h2>What are Our Values?</h2>
             </div>
-            <div className="value__title__heading text-3xl font-medium md:text-4xl">
-              <h2>
-                Ou<span>r</span> Value<span>s</span>
-              </h2>
+            <div className="val mt-5 leading-7 md:leading-8">
+              <p>
+                With a Core Purpose of grow human capabilities for the best
+                environment, we believe that the best environment is state,
+                where people are highly and increasingly productive, so our Core
+                Business is to creatively inspire Corporate and Individual
+                productivity, with arty expressions.
+              </p>
             </div>
           </div>
-          <div className="value__body mt-10 leading-8 md:w-4/6 md:text-lg md:leading-10 ">
-            <p>
-              With a Core Purpose of grow human capabilities for the best
-              environment, we believe that the best environment is state, where
-              people are highly and increasingly productive, so our Core
-              Business is to creatively inspire Corporate and Individual
-              productivity, with arty expressions
-            </p>
-          </div>
         </div>
-        <div className="value__sub-section mx-auto justify-start  px-4  md:flex md:w-full md:max-w-7xl md:items-center md:justify-center md:gap-16  md:px-8 md:pb-12 lg:px-0">
-          <div data-aos="fade-up" className="people mx-auto mb-20 md:max-w-sm ">
-            <div className="people__title__heading text-2xl font-medium leading-relaxed md:text-3xl">
-              <div className="people-icon">
-                <img src="https://i.ibb.co/ZmVXJM5/people.png" alt="" />
-              </div>
-              <h3 className="">
-                <span>P</span>eopl<span>e</span>
-              </h3>
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+          <div
+            data-aos="fade-up"
+            className="people__title__heading  mb-8 md:mb-0 md:max-w-sm"
+          >
+            <div className="people-icon">
+              <img src="https://i.ibb.co/ZmVXJM5/people.png" alt="" />
             </div>
-            <div className="people__body mt-5 self-center md:max-w-xs">
+            <h3 className="text-2xl font-medium md:text-3xl">People</h3>
+            <div className="people__body mt-5 leading-relaxed  sm:max-w-xs">
               <p>
                 {' '}
                 Our care is deeply about people; our customers , our own people,
@@ -142,16 +88,15 @@ function about() {
               </p>
             </div>
           </div>
-          <div data-aos="fade-up" className="people mx-auto mb-20 md:max-w-sm ">
-            <div className="people__title__heading text-2xl font-medium leading-relaxed md:text-3xl">
-              <div className="people-icon">
-                <img src="https://i.ibb.co/FHL8db8/result.png" alt="" />
-              </div>
-              <h3>
-                <span>R</span>esul<span>t</span>
-              </h3>
+          <div
+            data-aos="fade-up"
+            className="people__title__heading mb-8 md:mb-0 md:max-w-sm "
+          >
+            <div className="people-icon">
+              <img src="https://i.ibb.co/FHL8db8/result.png" alt="" />
             </div>
-            <div className="people__body mt-5 md:max-w-xs">
+            <h3 className="text-2xl font-medium md:text-3xl">Result</h3>
+            <div className="people__body mt-5 leading-relaxed sm:max-w-xs">
               <p>
                 {' '}
                 We have a result driven mindset that is rooted in our culture.
@@ -159,16 +104,15 @@ function about() {
               </p>
             </div>
           </div>
-          <div data-aos="fade-up" className="people mx-auto mb-20 md:max-w-sm ">
-            <div className="people__title__heading text-2xl font-medium leading-relaxed md:text-3xl">
-              <div className="people-icon">
-                <img src="https://i.ibb.co/bLsrgqV/excellence.png" alt="" />
-              </div>
-              <h3>
-                <span>E</span>xcellenc<span>e</span>
-              </h3>
+          <div
+            data-aos="fade-up"
+            className="people__title__heading md:max-w-sm"
+          >
+            <div className="people-icon">
+              <img src="https://i.ibb.co/bLsrgqV/excellence.png" alt="" />
             </div>
-            <div className="people__body mt-5 md:max-w-xs">
+            <h3 className="text-2xl font-medium  md:text-3xl">Excellence</h3>
+            <div className="people__body mt-5 leading-relaxed sm:max-w-xs ">
               <p>
                 {' '}
                 We are committed to excellence in all our deliveries, while

@@ -13,8 +13,8 @@ function Footer() {
   }, [])
   return (
     <div className="bg-gray-200">
-      <footer className=" mx-auto bg-gray-200 px-4 pt-10 pb-10 md:max-w-7xl md:px-8 lg:px-9">
-        <div className="mb-5 md:flex md:w-full md:items-center md:justify-between">
+      <footer className=" mx-auto px-4 pt-10 pb-10 md:max-w-7xl md:px-8 lg:px-9">
+        <div className="mb-5 md:flex md:w-full md:items-start md:justify-between">
           <div data-aos="fade-up" className="about md:w-4/12 md:max-w-md">
             <div className=" mb-6 text-2xl font-medium md:text-3xl">
               <h2>About Us</h2>
@@ -29,18 +29,24 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div className="footer-sections  mt-10 flex justify-between md:w-8/12 md:max-w-lg">
+          <div className="footer-sections  mt-10 flex items-start justify-between md:mt-0 md:w-8/12 md:max-w-lg">
             <div data-aos="fade-up" className="footer-section  md:max-w-sm">
               <div className="footer-section-title mb-6 text-2xl font-medium md:text-3xl">
-                <h2>Services</h2>
+                <h2>Contact</h2>
               </div>
               <ul className="leading-loose">
-                <li>Art and Animation</li>
-                <li>Art and Animation</li>
-                <li>Art and Animation</li>
-                <li>Art and Animation</li>
-                <li>Art and Animation</li>
-                <li>Art and Animation</li>
+                <li className="max-w-xs">
+                  <b>Phone:</b> <a href="tel:+2348121053879">+2348121053879</a>
+                </li>
+                <li className="max-w-xs">
+                  <b>Email:</b>{' '}
+                  <a className="underline" href="mailto:admin@protaroom.com">
+                    admin@protaroom.com
+                  </a>
+                </li>
+                <li className="max-w-xs">
+                  <b>Address:</b> 12 Soso Street, Off District Avenue
+                </li>
               </ul>
             </div>
             <div data-aos="fade-up" className="footer-section md:max-w-sm">
@@ -77,25 +83,22 @@ function Footer() {
             Copyright &copy; 2022 Protaroom. All Rights Reserved.
           </p>
 
-          <div className="socialLinks mb-0 flex items-center justify-around gap-10 pt-4 md:mt-0">
+          <div className="socialLinks mb-0 flex items-center gap-10 pt-4 md:mt-0">
             <span className="">
-              <a href="#">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Protaroom-109300285088378/"
+              >
                 <FaFacebookF />
               </a>
             </span>
+
             <span className="">
-              <a href="#">
-                <FaPinterest />
-              </a>
-            </span>
-            <span className="">
-              <a href="#">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/protaroom"
+              >
                 <FaLinkedinIn />
-              </a>
-            </span>
-            <span className="">
-              <a href="#">
-                <FaInstagram />
               </a>
             </span>
           </div>

@@ -6,6 +6,7 @@ import { FaPinterest } from 'react-icons/fa'
 import ReactTypingEffect from 'react-typing-effect'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 import { Carousel } from 'react-responsive-carousel'
+import Link from 'next/link'
 
 const words = [
   'We are all about the gladness of people',
@@ -56,43 +57,46 @@ function Hero() {
       </div>
       <div className="hero__categories md:text-md  z-0 mb-10  flex w-full flex-col gap-8 self-start text-sm md:flex-row md:items-center md:justify-between md:gap-0 md:px-5 lg:-mt-10 lg:max-w-screen-lg lg:px-9 lg:font-medium">
         <span>
-          <a href="#">Art and Animation</a>
+          <Link href="/service-page">
+            <a>Artworks Design and Installation</a>
+          </Link>
         </span>
         <span>
-          <a href="#">Branding</a>
+          <Link href="/service-page">
+            <a>Branding</a>
+          </Link>
         </span>
         <span>
-          <a href="#">Digital Design</a>
+          <Link href="/service-page">
+            <a>Digital Design</a>
+          </Link>
         </span>
         <span>
-          <a href="#">Interior Design</a>
+          <Link href="/service-page">
+            <a>Interior Design</a>
+          </Link>
         </span>
         <span>
-          <a href="#">Motion Design</a>
+          <Link href="/service-page">
+            <a>Motion Design</a>
+          </Link>
         </span>
         <span>
-          <a href="#">Print Design</a>
+          <Link href="/service-page">
+            <a>Print Design</a>
+          </Link>
         </span>
       </div>
       <div className="hero__socialLinks z-0 flex w-full max-w-md flex-row gap-9 self-start md:px-5 lg:px-9">
         <span>
-          <a href="#">
+          <a href="https://www.facebook.com/Protaroom-109300285088378/">
             <FaFacebookF />
           </a>
         </span>
+
         <span>
-          <a href="#">
-            <FaPinterest />
-          </a>
-        </span>
-        <span>
-          <a href="#">
+          <a href="https://www.linkedin.com/company/protaroom">
             <FaLinkedinIn />
-          </a>
-        </span>
-        <span>
-          <a href="#">
-            <FaInstagram />
           </a>
         </span>
       </div>

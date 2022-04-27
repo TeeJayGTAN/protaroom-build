@@ -12,23 +12,29 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 import { Carousel } from 'react-responsive-carousel'
+import { sanityClient } from '../sanity'
+import Bodyhomepage from '../components/Bodyhomepage'
+import Showservices from '../components/Showservices'
 
-function Home() {
+export default function Home({ posts }) {
+  console.log(posts)
   return (
     <div>
       <Head>
         <title>Protaroom</title>
-        <link rel="icon" href="https://i.ibb.co/zZYvg9G/protaroomfavicon.png" />
+        <link rel="icon" href="../favicon2.png" />
       </Head>
       <div className="hero-container relative">
         <Header />
         <Hero />
-        <Purpose />
-        <Value />
-        <About />
-        <Services />
+        <Showservices />
+        {/* <Purpose />
+        <Value /> */}
+        <Bodyhomepage />
+        {/* <About /> */}
+        {/* <Services /> */}
         <Story />
-        <Blogs />
+        {/* <Blogs posts={posts} /> */}
         <Contact />
         <Footer />
         {/* <Carousel
@@ -57,4 +63,23 @@ function Home() {
   )
 }
 
-export default Home
+export const getServerSideProps = async () => {
+  const query = `*[_type == "post"] {
+    _id,
+    title,
+    mainImage,
+    description,
+    slug,
+    author -> {
+    name,
+    image
+  }
+  }`
+
+  const posts = await sanityClient.fetch(query)
+  return {
+    props: {
+      posts,
+    },
+  }
+}
