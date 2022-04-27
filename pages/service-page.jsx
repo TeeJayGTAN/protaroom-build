@@ -17,7 +17,7 @@ function service() {
     <div className="relative">
       <Head>
         <title>Protaroom | Service </title>
-        <link rel="icon" href="../favicon2.png" />
+        <link rel="icon" href="../favicon64.png" />
       </Head>
       <Header />
       <div className="services md:flex-custom-md md:flex-custom-md-col-gap md:flex-custom-md-col mx-auto mt-20   mb-16 overflow-hidden px-4 font-medium md:max-w-7xl">

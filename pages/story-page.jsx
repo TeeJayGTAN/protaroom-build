@@ -12,7 +12,7 @@ function story() {
     <div className="relative">
       <Head>
         <title>Protaroom | Value Story </title>
-        <link rel="icon" href="../favicon2.png" />
+        <link rel="icon" href="../favicon64.png" />
       </Head>
       <Header />
       <div className="story relative mx-auto mb-32 mt-14 px-4 md:max-w-7xl md:px-8 lg:px-9">

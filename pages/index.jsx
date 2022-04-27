@@ -22,7 +22,7 @@ export default function Home({ posts }) {
     <div>
       <Head>
         <title>Protaroom</title>
-        <link rel="icon" href="../favicon2.png" />
+        <link rel="icon" href="../favicon64.png" />
       </Head>
       <div className="hero-container relative">
         <Header />

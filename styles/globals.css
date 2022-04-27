@@ -804,4 +804,7 @@ input:-webkit-autofill:active {
   .pt-cm {
     padding-top: 4rem /* 64px */;
   }
+  .lets-image img {
+    height: 21rem;
+  }
 }

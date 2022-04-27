@@ -31,7 +31,7 @@ function about() {
     <div className="relative">
       <Head>
         <title>Protaroom | About </title>
-        <link rel="icon" href="../favicon2.png" />
+        <link rel="icon" href="../favicon64.png" />
       </Head>
       <Header />
       <div className="mx-auto mb-16 mt-10 px-4 md:max-w-7xl md:px-8 lg:px-9">

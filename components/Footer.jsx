@@ -15,7 +15,7 @@ function Footer() {
     <div className="bg-gray-200">
       <footer className=" mx-auto px-4 pt-10 pb-10 md:max-w-7xl md:px-8 lg:px-9">
         <div className="mb-5 md:flex md:w-full md:items-start md:justify-between">
-          <div data-aos="fade-up" className="about md:w-4/12 md:max-w-md">
+          <div data-aos="fade-up" className="about md:w-4/12 md:max-w-lg">
             <div className=" mb-6 text-2xl font-medium md:text-3xl">
               <h2>About Us</h2>
             </div>
@@ -29,8 +29,11 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div className="footer-sections  mt-10 flex items-start justify-between md:mt-0 md:w-8/12 md:max-w-lg">
-            <div data-aos="fade-up" className="footer-section  md:max-w-sm">
+          <div className="footer-sections mt-10 flex items-start justify-between md:mt-0 md:w-8/12 md:max-w-lg">
+            <div
+              data-aos="fade-up"
+              className="footer-section  md:-ml-28 md:max-w-sm "
+            >
               <div className="footer-section-title mb-6 text-2xl font-medium md:text-3xl">
                 <h2>Contact</h2>
               </div>

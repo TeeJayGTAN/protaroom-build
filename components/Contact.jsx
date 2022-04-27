@@ -11,7 +11,7 @@ function Contact() {
   return (
     <div className="relative mt-10 mb-10 py-8 md:mb-32">
       <div className="lets-image absolute top-0 h-full w-full sm:right-0 sm:max-w-screen-sm md:max-w-screen-md">
-        <img src="../footer-img.png" alt="" />
+        <img className="opacity-40" src="../footer-img.png" alt="" />
       </div>
       <div
         data-aos="fade-up"

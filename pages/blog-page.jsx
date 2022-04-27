@@ -22,7 +22,7 @@ export default function blog({ posts }) {
     <div className="relative">
       <Head>
         <title>Protaroom | Blog</title>
-        <link rel="icon" href="../favicon2.png" />
+        <link rel="icon" href="../favicon64.png" />
       </Head>
 
       <Header />
