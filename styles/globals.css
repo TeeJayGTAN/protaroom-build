@@ -254,7 +254,7 @@ ul {
 /* Hero section styles start*/
 
 .hero-bg-img {
-  background-image: url(../public/assets/images/hero/hero-art2.jpg);
+  background-image: url(https://i.ibb.co/k8HWfwL/hero-art2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -276,7 +276,7 @@ ul {
   opacity: 0.35;
   background-position: center;
   background-size: cover;
-  background-image: url(../public/assets/images/hero/hero-art2.jpg);
+  background-image: url(https://i.ibb.co/k8HWfwL/hero-art2.jpg);
 }
 
 .hero-bg-img div {
