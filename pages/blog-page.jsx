@@ -24,10 +24,11 @@ export default function blog({ posts }) {
         <title>Protaroom | Blog</title>
         <link rel="icon" href="../favicon64.png" />
       </Head>
+      <div className="sticky top-0">
+        <Header />
+      </div>
 
-      <Header />
-
-      <div data-aos="zoom-in" className="mt-4 bg-gray-100 px-4 ">
+      {/* <div data-aos="zoom-in" className="mt-4 bg-gray-100 px-4 ">
         <div className="categories-nav mx-auto max-w-screen-md py-4  lg:max-w-screen-lg">
           <div className="category-items md:text-md grid grid-cols-3 place-items-start md:grid-cols-4 lg:grid-cols-7 lg:text-sm">
             <div
@@ -67,7 +68,7 @@ export default function blog({ posts }) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="mt-20 px-4">
         <BlogPosts posts={posts} />
       </div>

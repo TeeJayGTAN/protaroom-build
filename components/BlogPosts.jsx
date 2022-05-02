@@ -10,6 +10,7 @@ function BlogPosts({ posts }) {
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
+
   return (
     <div>
       {posts.map((post) => (
@@ -24,7 +25,7 @@ function BlogPosts({ posts }) {
                   <h2> {post.title}</h2>
                 </div>
                 <div className="some-more-info flex flex-col text-xs font-medium md:flex-row md:gap-8">
-                  <span className="hover:underline"> {post.categories}</span>
+                  {/* <span className="hover:underline"> {post.categories}</span> */}
                   <span>{new Date(post._createdAt).toLocaleString()}</span>
                   <span>11 min read</span>
                 </div>
@@ -40,7 +41,7 @@ function BlogPosts({ posts }) {
           </div>
         </Link>
       ))}
-      <div data-aos="fade-up" className="">
+      {/* <div data-aos="fade-up" className="">
         <div className="blogpostcard mb-10 max-w-screen-md hover:cursor-pointer hover:shadow-lg md:mx-auto md:flex md:items-center lg:max-w-screen-lg">
           <div className="blogpostcardimage overflow-hidden rounded md:w-4/6 lg:h-2/6 lg:w-3/6">
             <img
@@ -66,7 +67,7 @@ function BlogPosts({ posts }) {
           </div>
         </div>
         <div className="line m mx-auto mb-10 h-0.5 w-full bg-gray-100 px-4"></div>
-      </div>
+      </div> */}
     </div>
   )
 }
