@@ -42,7 +42,7 @@ function Footer() {
                   <b>Phone:</b> <a href="tel:+2348121053879">+2348121053879</a>
                 </li>
                 <li className="max-w-xs">
-                  <b>Email:</b>{' '}
+                  <b>Email:</b> <br />
                   <a className="underline" href="mailto:admin@protaroom.com">
                     admin@protaroom.com
                   </a>

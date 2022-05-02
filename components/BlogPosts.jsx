@@ -25,7 +25,7 @@ function BlogPosts({ posts }) {
                 </div>
                 <div className="some-more-info flex flex-col text-xs font-medium md:flex-row md:gap-8">
                   <span className="hover:underline"> {post.categories}</span>
-                  <span>{post.publishedAt}</span>
+                  <span>{new Date(post._createdAt).toLocaleString()}</span>
                   <span>11 min read</span>
                 </div>
                 <div className="some-body">

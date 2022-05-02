@@ -808,3 +808,10 @@ input:-webkit-autofill:active {
     height: 21rem;
   }
 }
+
+.border-accent-color {
+  border-color: var(--accent-color);
+}
+.text-accent-color-cm {
+  color: var(--accent-color);
+}

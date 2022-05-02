@@ -12,7 +12,7 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 import { Carousel } from 'react-responsive-carousel'
-import { sanityClient } from '../sanity'
+// import { sanityClient } from '../sanity'
 import Bodyhomepage from '../components/Bodyhomepage'
 import Showservices from '../components/Showservices'
 
@@ -63,23 +63,23 @@ export default function Home({ posts }) {
   )
 }
 
-export const getServerSideProps = async () => {
-  const query = `*[_type == "post"] {
-    _id,
-    title,
-    mainImage,
-    description,
-    slug,
-    author -> {
-    name,
-    image
-  }
-  }`
+// export const getServerSideProps = async () => {
+//   const query = `*[_type == "post"] {
+//     _id,
+//     title,
+//     mainImage,
+//     description,
+//     slug,
+//     author -> {
+//     name,
+//     image
+//   }
+//   }`
 
-  const posts = await sanityClient.fetch(query)
-  return {
-    props: {
-      posts,
-    },
-  }
-}
+//   const posts = await sanityClient.fetch(query)
+//   return {
+//     props: {
+//       posts,
+//     },
+//   }
+// }
