@@ -51,22 +51,13 @@ function service() {
               showStatus={false}
             >
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/mCz9QBV/10.jpg"
-                />
+                <img className="overflow-hidden rounded" src="dig1.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/GdM4FSR/30.jpg"
-                />
+                <img className="overflow-hidden rounded" src="dig1.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/0GmRtZf/26.jpg"
-                />
+                <img className="overflow-hidden rounded" src="dig1.jpg" />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -115,23 +106,20 @@ function service() {
               // showIndicators={false}
               showStatus={false}
             >
+              {/* <div className=" rounded">
+                <img className="overflow-hidden rounded" src="int1.jpg" />
+              </div> */}
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/mCz9QBV/10.jpg"
-                />
+                <img className="overflow-hidden rounded" src="int2.jpg" />
+              </div>
+              {/* <div className=" rounded">
+                <img className="overflow-hidden rounded" src="int3.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/GdM4FSR/30.jpg"
-                />
-              </div>
+                <img className="overflow-hidden rounded" src="int4.jpg" />
+              </div> */}
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/0GmRtZf/26.jpg"
-                />
+                <img className="overflow-hidden rounded" src="exp1.jpg" />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -187,22 +175,13 @@ function service() {
               showStatus={false}
             >
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/mCz9QBV/10.jpg"
-                />
+                <img className="overflow-hidden rounded" src="bra1.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/GdM4FSR/30.jpg"
-                />
+                <img className="overflow-hidden rounded" src="dig1.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/0GmRtZf/26.jpg"
-                />
+                <img className="overflow-hidden rounded" src="bra1.jpg" />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -251,22 +230,13 @@ function service() {
               showStatus={false}
             >
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/mCz9QBV/10.jpg"
-                />
+                <img className="overflow-hidden rounded" src="pri1.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/GdM4FSR/30.jpg"
-                />
+                <img className="overflow-hidden rounded" src="pri1.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/0GmRtZf/26.jpg"
-                />
+                <img className="overflow-hidden rounded" src="pri1.jpg" />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -318,22 +288,13 @@ function service() {
               showStatus={false}
             >
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/mCz9QBV/10.jpg"
-                />
+                <img className="overflow-hidden rounded" src="mot1.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/GdM4FSR/30.jpg"
-                />
+                <img className="overflow-hidden rounded" src="mot1.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/0GmRtZf/26.jpg"
-                />
+                <img className="overflow-hidden rounded" src="mot1.jpg" />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -382,22 +343,13 @@ function service() {
               showStatus={false}
             >
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/mCz9QBV/10.jpg"
-                />
+                <img className="overflow-hidden rounded" src="art1.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/GdM4FSR/30.jpg"
-                />
+                <img className="overflow-hidden rounded" src="art2.jpg" />
               </div>
               <div className=" rounded">
-                <img
-                  className="overflow-hidden rounded"
-                  src="https://i.ibb.co/0GmRtZf/26.jpg"
-                />
+                <img className="overflow-hidden rounded" src="art1.jpg" />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
