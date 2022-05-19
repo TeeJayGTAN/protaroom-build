@@ -26,8 +26,8 @@ function Header() {
         </div>
         <nav
           className={`${
-            isMenuOpen ? 'translate-x-0 ' : 'translate-x-full'
-          } absolute top-0  left-0 right-0 bottom-0 z-10 min-h-fit bg-white px-4 py-20 transition-transform duration-300 ease-in-out md:relative md:translate-x-0 md:bg-inherit md:py-1 `}
+            isMenuOpen ? 'translate-x-0' : ' hidden translate-x-full md:block'
+          } absolute top-0 left-0 right-0 bottom-0 z-10 min-h-fit bg-white px-4 py-20 transition-transform duration-300 ease-in-out md:relative md:translate-x-0 md:bg-inherit md:py-1 `}
         >
           <ul className="nav__links md:text-sm-custom my-10 flex  flex-col items-start justify-evenly gap-10 text-lg font-medium sm:h-1/5  md:my-0 md:mt-0  md:flex-row md:items-center">
             <li className="nav__link min-w-fit">

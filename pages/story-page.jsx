@@ -16,12 +16,12 @@ function story() {
       </Head>
       <Header />
       <div className="story relative mx-auto mb-32 mt-14 px-4 md:max-w-7xl md:px-8 lg:px-9">
-        <div className="mx-auto ">
-          <div className="val-story-bg-img -z-50 rounded"></div>
-          <div className="overlaystory pt-cm z-10">
+        <div className="mx-auto text-white">
+          <div className="val-story-bg-img z-50 rounded"></div>
+          <div className="overlaystory pt-cm -z-10 rounded">
             <div
               data-aos="fade-up"
-              className=" story__title md:mb-10-custom  mb-10 pl-10  pt-5 text-3xl font-medium md:text-4xl"
+              className=" story__title md:mb-10-custom  mb-10 pl-10  pt-5 text-4xl font-bold md:text-5xl"
             >
               <h2>Our Value Story</h2>
             </div>

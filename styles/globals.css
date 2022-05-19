@@ -272,11 +272,11 @@ ul {
   top: 0;
   width: 95%;
   height: 18%;
-  z-index: -999;
-  opacity: 0.35;
-  background-position: center;
-  background-size: cover;
-  background-image: url(https://i.ibb.co/k8HWfwL/hero-art2.jpg);
+  opacity: 0.9;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../public/girl.png);
 }
 
 .hero-bg-img div {
@@ -797,7 +797,9 @@ input:-webkit-autofill:active {
   transform: scale(1.25);
 }
 .overlaystory {
-  background-color: rgba(229, 231, 235, 0.35);
+  background-color: var(--accent-color);
+  opacity: 0.9;
+  z-index: -999;
 }
 
 @media (max-width: 648px) {
@@ -814,4 +816,39 @@ input:-webkit-autofill:active {
 }
 .text-accent-color-cm {
   color: var(--accent-color);
+}
+
+/* .o-hidden {
+  overflow-x: hidden !important;
+}
+
+.hidden-animation {
+  animation: hidden-animation 0.3s ease forwards;
+} */
+
+.about-hero {
+  background-image: url(../public/SERVICES.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.about-hero::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgb(243 244 246);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }

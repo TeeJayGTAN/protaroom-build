@@ -35,13 +35,43 @@ function about() {
       </Head>
       <Header />
       <div className="mx-auto mb-16 mt-10 px-4 md:max-w-7xl md:px-8 lg:px-9">
+        <div className="about-hero mb-20 rounded py-5" data-aos="fade-up">
+          <div className="at text-4xl font-bold md:text-5xl">
+            <h2>About</h2>
+          </div>
+          <div className="ab mt-10 flex flex-col gap-6 text-lg leading-loose">
+            <p className="font-bold">Hello!</p>
+            <p>
+              Welcome to Protaroom, an interdisciplinary design and recreation
+              company with a human-centered approach to interior and
+              experiential design. We strongly believe that the human experience
+              must be the driving force behind every element of a design––from
+              ideation to the qualities of interaction, expectation, and
+              intention.
+            </p>
+            <p>
+              Our work covers Interior design, Animation, Art, Illustration,
+              Graphics, Identity Strategy and Positioning, Exhibitions and
+              Installations, Brand, Business Architecture and Digital
+              experiences
+            </p>
+            <p>
+              Our proposition is unique, as we leverage on our depth of digital
+              versatilities (from research to implementation) in creating an
+              impressive experience for our clients, reflecting our deep
+              conviction that great design cannot happen without understanding
+              people, having passion, creative intelligence and above all
+              personal assurance.
+            </p>
+          </div>
+        </div>
         <div className="">
           <div
             data-aos="fade-up"
             className="purp mx-auto grid grid-cols-1 md:w-4/5 md:grid-cols-2 md:place-items-start"
           >
             <div className="text-3xl font-medium md:max-w-sm md:text-4xl md:leading-relaxed ">
-              <h2>What is Our Purpose?</h2>
+              <h2>Core Purpose</h2>
             </div>
             <div className="purp-body mt-5 leading-7 md:leading-8">
               <p>
@@ -58,7 +88,7 @@ function about() {
             className="val mx-auto mt-10 grid grid-cols-1 md:w-4/5 md:grid-cols-2 md:place-items-start"
           >
             <div className="text-3xl font-medium md:max-w-sm md:text-4xl md:leading-relaxed">
-              <h2>What are Our Values?</h2>
+              <h2>Core Values</h2>
             </div>
             <div className="val mt-5 leading-7 md:leading-8">
               <p>
@@ -70,6 +100,12 @@ function about() {
               </p>
             </div>
           </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          className="bannerimg  my-8 h-[35vh]  md:h-[90vh]"
+        >
+          <img className="h-full w-full" src="../extrapic.jpg" alt="extrapic" />
         </div>
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
           <div

@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+import {
+  LazyLoadImage,
+  LazyLoadComponent,
+} from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css'
 
 function Showservices() {
@@ -11,6 +14,9 @@ function Showservices() {
           <div className="s-card grid-1 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
@@ -28,6 +34,9 @@ function Showservices() {
           <div className="s-card grid-2 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
@@ -45,6 +54,9 @@ function Showservices() {
           <div className="s-card grid-3 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
@@ -62,6 +74,9 @@ function Showservices() {
           <div className="s-card grid-4 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
@@ -79,6 +94,9 @@ function Showservices() {
           <div className="s-card grid-5 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
@@ -96,6 +114,9 @@ function Showservices() {
           <div className="s-card grid-6 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
@@ -113,6 +134,9 @@ function Showservices() {
           <div className="s-card grid-7 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full object-cover"
                 height={'100%'}
                 width={'100%'}
@@ -130,6 +154,9 @@ function Showservices() {
           <div className="s-card grid-8 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
@@ -146,14 +173,32 @@ function Showservices() {
         <Link href="/service-page">
           <div className="s-card grid-9 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
-              <LazyLoadImage
+              {/* <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
-                src="../mot1.jpg"
+                src="../realmotiondesign.jpg"
                 alt="pics"
-              />
+              /> */}
+
+              <LazyLoadComponent
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
+                className="h-full w-full"
+                height={'100%'}
+                width={'100%'}
+                effect="blur"
+              >
+                <video width="320" height="240" autoplay loop>
+                  <source src="../realmotiondesign.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </LazyLoadComponent>
             </div>
             <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
               <h3>Motion Design</h3>
@@ -164,6 +209,9 @@ function Showservices() {
           <div className="s-card grid-10 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
@@ -181,6 +229,9 @@ function Showservices() {
           <div className="s-card grid-11 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}
@@ -198,6 +249,9 @@ function Showservices() {
           <div className="s-card grid-12 relative h-full w-full">
             <div className="s-img  z-0 h-full w-full">
               <LazyLoadImage
+                placeholder={
+                  <span className="h-full w-full bg-gray-100"></span>
+                }
                 className="h-full w-full"
                 height={'100%'}
                 width={'100%'}

@@ -12,7 +12,7 @@ function Footer() {
     Aos.init({ duration: 2000 })
   }, [])
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-100">
       <footer className=" mx-auto px-4 pt-10 pb-10 md:max-w-7xl md:px-8 lg:px-9">
         <div className="mb-5 md:flex md:w-full md:items-start md:justify-between">
           <div data-aos="fade-up" className="about md:w-4/12 md:max-w-lg">
