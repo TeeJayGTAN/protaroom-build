@@ -9,11 +9,12 @@ import { Carousel } from 'react-responsive-carousel'
 import Link from 'next/link'
 
 const words = [
-  'We are all about the gladness of people',
-  'We create experiential designs...',
-  'We are a community of designers, creating experiences that inspire people productively',
-  'Leverage on our creative expertise to communicate your values',
-  'Let’s make something amazing together...',
+  'For you , everything has its design',
+  'We build the design with you in mind',
+  //   'We are a community of designers, creating experiences that inspire people productively',
+  //   'Leverage on our creative expertise to communicate your values',
+  //   'Let’s make something amazing together...',
+  // ]
 ]
 
 function Hero() {
