@@ -697,9 +697,10 @@ input:-webkit-autofill:active {
   display: grid;
   grid-template-columns: repeat(3, 250px);
   grid-template-rows: auto;
+  /* margin: 0 auto; */
   grid-gap: 1rem;
   grid-template-areas:
-    'grid-1 grid-2 grid-2'
+    'grid-1 grid-2 grid-2 '
     'grid-1 grid-3 grid-4'
     'grid-5 grid-5 grid-6'
     'grid-7 grid-8 grid-8'
@@ -827,7 +828,7 @@ input:-webkit-autofill:active {
 } */
 
 .about-hero {
-  background-image: url(../public/SERVICES.jpg);
+  background-image: url(../public/services.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

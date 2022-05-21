@@ -39,7 +39,7 @@ function about() {
           <div className="at text-4xl font-bold md:text-5xl">
             <h2>About</h2>
           </div>
-          <div className="ab mt-10 flex flex-col gap-6 text-lg leading-loose">
+          <div className="ab mt-5 flex flex-col gap-6 text-lg leading-loose">
             <p className="font-bold">Hello!</p>
             <p>
               Welcome to Protaroom, an interdisciplinary design and recreation
