@@ -194,10 +194,11 @@ function Showservices() {
                 width={'100%'}
                 effect="blur"
               >
-                <video width="320" height="240" autoplay loop>
+                {/* <video width="320" height="240" autoplay loop>
                   <source src="../realmotiondesign.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
-                </video>
+                </video> */}
+                <img src="../giphy.gif" alt="giphy" loading="lazy" />
               </LazyLoadComponent>
             </div>
             <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
