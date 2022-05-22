@@ -708,6 +708,22 @@ input:-webkit-autofill:active {
     'grid-11 grid-11 grid-12';
 }
 
+.image-gallery > div {
+  min-height: 10rem;
+  width: 100%;
+  background: gray;
+  animation: skeleton 1s infinite linear;
+}
+
+@keyframes skeleton {
+  from {
+    background: rgb(165, 185, 194);
+  }
+  to {
+    background: rgb(205, 233, 252);
+  }
+}
+
 @media (max-width: 850px) {
   .image-gallery {
     display: flex;
