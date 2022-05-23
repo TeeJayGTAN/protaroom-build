@@ -20,16 +20,16 @@ function service() {
         <link rel="icon" href="../favicon64.png" />
       </Head>
       <Header />
-      <div className="services md:flex-custom-md md:flex-custom-md-col-gap md:flex-custom-md-col mx-auto mt-20   mb-16 overflow-hidden px-4 font-medium md:max-w-7xl">
+      <div className="px-4 mx-auto mt-20 mb-16 overflow-hidden font-medium services md:flex-custom-md md:flex-custom-md-col-gap md:flex-custom-md-col md:max-w-7xl">
         <div
           data-aos="fade-up"
-          className="services__title  md:mb-10-custom mb-12 text-4xl font-bold md:text-5xl"
+          className="mb-12 text-4xl font-bold services__title md:mb-10-custom md:text-5xl"
         >
           <h2>Our Services</h2>
         </div>
         <div
           data-aos="fade-up"
-          className="services__sections mx-auto mb-24 w-full max-w-md place-items-center overflow-hidden px-6 md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
+          className="w-full max-w-md px-6 mx-auto mb-24 overflow-hidden services__sections place-items-center md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
         >
           <div className="service__section-img-page">
             {/* <Image
@@ -50,14 +50,23 @@ function service() {
               // showIndicators={false}
               showStatus={false}
             >
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="dig1.jpg" />
+              <div className="rounded">
+                <img className="overflow-hidden rounded" src="design/8.jpg" />
               </div>
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="dig1.jpg" />
+              <div className="rounded ">
+                <img className="overflow-hidden rounded" src="design/9.jpg" />
               </div>
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="dig1.jpg" />
+              <div className="rounded ">
+                <img className="overflow-hidden rounded" src="design/11.jpg" />
+              </div>
+              <div className="rounded ">
+                <img className="overflow-hidden rounded" src="design/10.jpg" />
+              </div>
+              <div className="rounded ">
+                <img
+                  className="overflow-hidden rounded"
+                  src="design/41 PNG.jpg"
+                />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -66,12 +75,12 @@ function service() {
               https://i.ibb.co/GdM4FSR/30.jpg https://i.ibb.co/Xj0VccD/32.jpg
               https://i.ibb.co/Bt20BnL/6.jpg https://i.ibb.co/mCz9QBV/10.jpg */}
           </div>
-          <div className="services__section w-full rounded  px-0 ">
+          <div className="w-full px-0 rounded services__section ">
             <div className="">
-              <div className="services__section-title mt-6 w-full text-2xl leading-relaxed  md:text-3xl ">
+              <div className="w-full mt-6 text-2xl leading-relaxed services__section-title md:text-3xl ">
                 <h3>Digital Designs</h3>
               </div>
-              <div className="services__section-body mt-5 w-full md:max-w-md md:text-lg lg:leading-loose">
+              <div className="w-full mt-5 services__section-body md:max-w-md md:text-lg lg:leading-loose">
                 <p>
                   Digital design is at the forefront of our core services. We
                   excel at creating digital products which convey value and fit
@@ -85,7 +94,7 @@ function service() {
         </div>
         <div
           data-aos="fade-up"
-          className="services__sections mx-auto mb-24 w-full max-w-md place-items-center overflow-hidden px-6 md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
+          className="w-full max-w-md px-6 mx-auto mb-24 overflow-hidden services__sections place-items-center md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
         >
           <div className="service__section-img-page">
             {/* <Image
@@ -106,20 +115,29 @@ function service() {
               // showIndicators={false}
               showStatus={false}
             >
-              {/* <div className=" rounded">
-                <img className="overflow-hidden rounded" src="int1.jpg" />
-              </div> */}
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="int2.jpg" />
+              <div className="rounded ">
+                <img
+                  className="overflow-hidden rounded"
+                  src="interior/1-01.jpg"
+                />
               </div>
-              {/* <div className=" rounded">
-                <img className="overflow-hidden rounded" src="int3.jpg" />
+              <div className="rounded ">
+                <img className="overflow-hidden rounded" src="interior/4.jpg" />
               </div>
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="int4.jpg" />
-              </div> */}
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="exp1.jpg" />
+              <div className="rounded ">
+                <img className="overflow-hidden rounded" src="interior/5.jpg" />
+              </div>
+              <div className="rounded ">
+                <img
+                  className="overflow-hidden rounded"
+                  src="interior/21.jpg"
+                />
+              </div>
+              <div className="rounded ">
+                <img
+                  className="overflow-hidden rounded"
+                  src="interior/27.jpg"
+                />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -130,13 +148,13 @@ function service() {
           </div>
           <div
             data-aos="fade-up"
-            className="services__section w-full rounded  px-0 "
+            className="w-full px-0 rounded services__section "
           >
             <div className="">
-              <div className="services__section-title mt-6 w-full text-2xl leading-relaxed  md:text-3xl ">
+              <div className="w-full mt-6 text-2xl leading-relaxed services__section-title md:text-3xl ">
                 <h3>Interior & Experiential Design</h3>
               </div>
-              <div className="services__section-body mt-5 w-full md:max-w-xl md:text-lg lg:leading-relaxed">
+              <div className="w-full mt-5 services__section-body md:max-w-xl md:text-lg lg:leading-relaxed">
                 <p>
                   Unique among design firms, Protaroom designs spaces that
                   respond to the needs of people and the environment. Our
@@ -153,7 +171,7 @@ function service() {
         </div>
         <div
           data-aos="fade-up"
-          className="services__sections mx-auto mb-24 w-full max-w-md place-items-center overflow-hidden px-6 md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
+          className="w-full max-w-md px-6 mx-auto mb-24 overflow-hidden services__sections place-items-center md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
         >
           <div className="service__section-img-page">
             {/* <Image
@@ -174,14 +192,11 @@ function service() {
               // showIndicators={false}
               showStatus={false}
             >
-              <div className=" rounded">
+              <div className="rounded ">
                 <img className="overflow-hidden rounded" src="bra1.jpg" />
               </div>
-              <div className=" rounded">
+              <div className="rounded ">
                 <img className="overflow-hidden rounded" src="dig1.jpg" />
-              </div>
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="bra1.jpg" />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -190,12 +205,12 @@ function service() {
               https://i.ibb.co/GdM4FSR/30.jpg https://i.ibb.co/Xj0VccD/32.jpg
               https://i.ibb.co/Bt20BnL/6.jpg https://i.ibb.co/mCz9QBV/10.jpg */}
           </div>
-          <div className="services__section w-full rounded  px-0 ">
+          <div className="w-full px-0 rounded services__section ">
             <div className="">
-              <div className="services__section-title mt-6 w-full text-2xl leading-relaxed  md:text-3xl ">
+              <div className="w-full mt-6 text-2xl leading-relaxed services__section-title md:text-3xl ">
                 <h3>Brand</h3>
               </div>
-              <div className="services__section-body mt-5 w-full md:max-w-md md:text-lg lg:leading-loose">
+              <div className="w-full mt-5 services__section-body md:max-w-md md:text-lg lg:leading-loose">
                 <p>
                   Protaroom assist client to convert their strategy into
                   results. We help our clients achieve their vision for a better
@@ -208,7 +223,7 @@ function service() {
         </div>
         <div
           data-aos="fade-up"
-          className="services__sections mx-auto mb-24 w-full max-w-md place-items-center overflow-hidden px-6 md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
+          className="w-full max-w-md px-6 mx-auto mb-24 overflow-hidden services__sections place-items-center md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
         >
           <div className="service__section-img-page">
             {/* <Image
@@ -229,14 +244,14 @@ function service() {
               // showIndicators={false}
               showStatus={false}
             >
-              <div className=" rounded">
+              <div className="rounded ">
                 <img className="overflow-hidden rounded" src="pri1.jpg" />
               </div>
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="pri1.jpg" />
+              <div className="rounded ">
+                <img className="overflow-hidden rounded" src="41 PNG.jpg" />
               </div>
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="pri1.jpg" />
+              <div className="rounded ">
+                <img className="overflow-hidden rounded" src="42.jpg" />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -247,13 +262,13 @@ function service() {
           </div>
           <div
             data-aos="fade-up"
-            className="services__section w-full rounded  px-0 "
+            className="w-full px-0 rounded services__section "
           >
             <div className="">
-              <div className="services__section-title mt-6 w-full text-2xl leading-relaxed  md:text-3xl ">
+              <div className="w-full mt-6 text-2xl leading-relaxed services__section-title md:text-3xl ">
                 <h3>Print Designs</h3>
               </div>
-              <div className="services__section-body mt-5 w-full md:max-w-md md:text-lg lg:leading-loose">
+              <div className="w-full mt-5 services__section-body md:max-w-md md:text-lg lg:leading-loose">
                 <p>
                   We have an expertise in aligning your brand with the
                   promotional need it requires. Our services include Book design
@@ -266,7 +281,7 @@ function service() {
         </div>
         <div
           data-aos="fade-up"
-          className="services__sections mx-auto mb-24 w-full max-w-md place-items-center overflow-hidden px-6 md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
+          className="w-full max-w-md px-6 mx-auto mb-24 overflow-hidden services__sections place-items-center md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
         >
           <div className="service__section-img-page">
             {/* <Image
@@ -275,40 +290,26 @@ function service() {
               height={350}
               alt=""
               className="overflow-hidden"
-            /> */}{' '}
-            <Carousel
-              autoPlay
-              infiniteLoop
-              showThumbs={false}
-              stopOnHover={false}
-              swipeable
-              emulateTouch
-              // showArrows={false}
-              // showIndicators={false}
-              showStatus={false}
-            >
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="mot1.jpg" />
-              </div>
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="mot1.jpg" />
-              </div>
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="mot1.jpg" />
-              </div>
-            </Carousel>
+            /> */}
+            <div className="rounded ">
+              <img
+                className="overflow-hidden rounded"
+                src="/giphy.gif"
+                alt="giphy"
+              />
+            </div>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
               https://i.ibb.co/tMcBpZp/28.jpg https://i.ibb.co/0GmRtZf/26.jpg
               https://i.ibb.co/WsY2Vqg/3.jpg https://i.ibb.co/zN2tjpf/29.jpg
               https://i.ibb.co/GdM4FSR/30.jpg https://i.ibb.co/Xj0VccD/32.jpg
               https://i.ibb.co/Bt20BnL/6.jpg https://i.ibb.co/mCz9QBV/10.jpg */}
           </div>
-          <div className="services__section w-full rounded  px-0 ">
+          <div className="w-full px-0 rounded services__section ">
             <div className="">
-              <div className="services__section-title mt-6 w-full text-2xl leading-relaxed  md:text-3xl ">
+              <div className="w-full mt-6 text-2xl leading-relaxed services__section-title md:text-3xl ">
                 <h3>Motion Graphics</h3>
               </div>
-              <div className="services__section-body mt-5 w-full md:max-w-md md:text-lg lg:leading-loose">
+              <div className="w-full mt-5 services__section-body md:max-w-md md:text-lg lg:leading-loose">
                 <p>
                   Motion videos are more engaging and interactive, we create
                   videos that allow individuals and corporate entities to
@@ -321,7 +322,7 @@ function service() {
         </div>
         <div
           data-aos="fade-up"
-          className="services__sections mx-auto mb-24 w-full max-w-md place-items-center px-6 md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
+          className="w-full max-w-md px-6 mx-auto mb-24 services__sections place-items-center md:grid md:max-w-screen-md md:grid-cols-2 md:place-items-center md:gap-20 lg:max-w-screen-lg"
         >
           <div className="service__section-img-page">
             {/* <Image
@@ -342,14 +343,11 @@ function service() {
               // showIndicators={false}
               showStatus={false}
             >
-              <div className=" rounded">
+              <div className="rounded ">
                 <img className="overflow-hidden rounded" src="art1.jpg" />
               </div>
-              <div className=" rounded">
+              <div className="rounded ">
                 <img className="overflow-hidden rounded" src="art2.jpg" />
-              </div>
-              <div className=" rounded">
-                <img className="overflow-hidden rounded" src="art1.jpg" />
               </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
@@ -360,13 +358,13 @@ function service() {
           </div>
           <div
             data-aos="fade-up"
-            className="services__section w-full rounded  px-0 "
+            className="w-full px-0 rounded services__section "
           >
             <div className="">
-              <div className="services__section-title mt-6 w-full text-2xl leading-relaxed  md:text-3xl ">
+              <div className="w-full mt-6 text-2xl leading-relaxed services__section-title md:text-3xl ">
                 <h3>Artworks Design and Installation</h3>
               </div>
-              <div className="services__section-body mt-5 w-full md:max-w-md md:text-lg lg:leading-loose">
+              <div className="w-full mt-5 services__section-body md:max-w-md md:text-lg lg:leading-loose">
                 <p>
                   At Protaroom, we engage the beauty of art to elevate people
                   spaces, ranging from elegant canvass, paintings , sketches to
