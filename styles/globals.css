@@ -695,7 +695,7 @@ input:-webkit-autofill:active {
 /*Show services*/
 .image-gallery {
   display: grid;
-  grid-template-columns: repeat(3, 250px);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 390px));
   grid-template-rows: auto;
   /* margin: 0 auto; */
   grid-gap: 1rem;
@@ -711,7 +711,7 @@ input:-webkit-autofill:active {
 .image-gallery > div {
   min-height: 10rem;
   width: 100%;
-  background: gray;
+  background: rgb(205, 233, 252);
   animation: skeleton 1s infinite linear;
 }
 
@@ -728,7 +728,7 @@ input:-webkit-autofill:active {
   .image-gallery {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    /* width: 50%; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -739,7 +739,7 @@ input:-webkit-autofill:active {
 
 @media (max-width: 500px) {
   .image-gallery {
-    width: 80%;
+    /* width: 80%; */
   }
 }
 .grid-1 {
@@ -844,7 +844,7 @@ input:-webkit-autofill:active {
 } */
 
 .about-hero {
-  background-image: url(../public/services.jpg);
+  /* background-image: url(../public/services.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

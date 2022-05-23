@@ -36,9 +36,9 @@ function Form() {
   return (
     <div
       data-aos="fade-in"
-      className="relative flex h-screen w-screen items-center justify-center bg-gray-100"
+      className="relative flex flex-col items-center justify-center w-screen h-screen bg-gray-100"
     >
-      <div className=" absolute top-6 left-10 flex items-center gap-2 hover:opacity-80">
+      <div className="flex items-center self-start gap-2 my-3 ml-6 hover:opacity-80">
         <BiArrowBack />
         <Link href="/">Back to Home</Link>
       </div>
@@ -46,12 +46,12 @@ function Form() {
         id="contact-form"
         // method="POST"
         onSubmit={(e) => handleSubmitEmail(e)}
-        className=" contact-form mx-auto flex min-h-fit w-5/6 flex-col gap-4 rounded bg-white py-12 px-6 shadow-lg  md:max-w-screen-md lg:max-h-fit"
+        className="flex flex-col w-5/6 gap-4 px-6 py-12 mx-auto bg-white rounded shadow-lg contact-form min-h-fit md:max-w-screen-md lg:max-h-fit"
       >
-        <div className="contact-form-title mb-4 text-3xl font-medium md:text-4xl">
+        <div className="mb-4 text-3xl font-medium contact-form-title md:text-4xl">
           <h2>Send us a Message!</h2>
         </div>
-        <div className="form-input-group relative w-full">
+        <div className="relative w-full form-input-group">
           <input
             className={`h-12 w-full  rounded  border border-gray-200 p-5 shadow-sm outline-none`}
             type="text"
@@ -64,13 +64,13 @@ function Form() {
           <label
             className={`${
               name === '' ? '' : 'label-animation'
-            } absolute top-2 left-4 text-xl md:text-2xl`}
+            } text-md absolute top-2 left-4 md:text-lg`}
             htmlFor="name"
           >
             Name
           </label>
         </div>
-        <div className="form-input-group relative w-full">
+        <div className="relative w-full form-input-group">
           <input
             className={`h-12 w-full  rounded border border-gray-200  p-5 shadow-sm    outline-none`}
             type="email"
@@ -84,13 +84,13 @@ function Form() {
           <label
             className={`${
               email === '' ? '' : 'label-animation'
-            } absolute top-2 left-4 text-xl md:text-2xl`}
+            } text-md absolute top-2 left-4 md:text-lg`}
             htmlFor="email"
           >
             Email
           </label>
         </div>
-        <div className="form-input-group relative w-full">
+        <div className="relative w-full form-input-group">
           <textarea
             className={`h-40 w-full rounded  border border-gray-200 p-5 shadow-sm outline-none`}
             name="message"
@@ -104,7 +104,7 @@ function Form() {
           <label
             className={` ${
               message === '' ? '' : 'label-animation'
-            } absolute top-2 left-4 text-xl md:text-2xl`}
+            } text-md absolute top-2 left-4 md:text-lg`}
             htmlFor="message"
           >
             Message
@@ -114,7 +114,7 @@ function Form() {
           <button
             type="submit"
             disabled={submitting}
-            className=" btn-hire-us mt-3 w-full rounded py-2 px-5 text-center text-white md:mt-0 "
+            className="w-full px-5 py-2 mt-3 text-center text-white rounded btn-hire-us md:mt-0"
           >
             Send{' '}
           </button>
