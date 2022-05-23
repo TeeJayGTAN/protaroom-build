@@ -36,9 +36,9 @@ function Form() {
   return (
     <div
       data-aos="fade-in"
-      className="relative flex flex-col items-center justify-center w-screen h-screen bg-gray-100"
+      className="relative flex flex-col items-center justify-center w-screen h-screen pt-5 bg-gray-100"
     >
-      <div className="flex items-center self-start gap-2 my-3 ml-6 hover:opacity-80">
+      <div className="flex items-center self-start gap-2 my-5 ml-6 hover:opacity-80">
         <BiArrowBack />
         <Link href="/">Back to Home</Link>
       </div>

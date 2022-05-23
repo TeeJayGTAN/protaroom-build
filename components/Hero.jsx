@@ -9,8 +9,8 @@ import { Carousel } from 'react-responsive-carousel'
 import Link from 'next/link'
 
 const words = [
-  'For you , everything has its design',
-  'We build the design with you in mind',
+  'For you, everything has its design...',
+  'We build the design with you in mind...',
   //   'We are a community of designers, creating experiences that inspire people productively',
   //   'Leverage on our creative expertise to communicate your values',
   //   'Let’s make something amazing together...',
@@ -56,7 +56,7 @@ function Hero() {
           }
         </h1>
       </div>
-      <div className="z-0 flex flex-col self-start w-full gap-8 mb-10 text-sm hero__categories md:text-md md:flex-row md:items-center md:justify-between md:gap-0 md:px-5 lg:-mt-10 lg:max-w-screen-lg lg:px-9 lg:font-medium">
+      <div className="z-0 flex flex-col self-start w-full mb-10 text-sm hero__categories md:text-md space-y-7 md:flex-row md:items-center md:justify-between md:gap-0 md:space-y-0 md:space-x-8 md:px-5 lg:-mt-10 lg:max-w-screen-lg lg:px-9 lg:font-medium">
         <span>
           <Link href="/service-page">
             <a>Artworks Design and Installation</a>
