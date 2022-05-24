@@ -17,14 +17,14 @@ import Bodyhomepage from '../components/Bodyhomepage'
 import Showservices from '../components/Showservices'
 
 export default function Home({ posts }) {
-  console.log(posts)
+  //console.log(posts)
   return (
     <div>
       <Head>
         <title>Protaroom</title>
         <link rel="icon" href="../favicon64.png" />
       </Head>
-      <div className="hero-container relative">
+      <div className="relative hero-container">
         <Header />
         <Hero />
         <Showservices />

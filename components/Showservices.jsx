@@ -8,16 +8,16 @@ import 'react-lazy-load-image-component/src/effects/blur.css'
 
 function Showservices() {
   return (
-    <div className=" mx-auto mt-14 px-4 md:max-w-7xl md:px-8 lg:px-9">
+    <div className="px-4 mx-auto  mt-14 md:max-w-7xl md:px-8 lg:px-9">
       <div className="image-gallery md:h-full md:place-content-center">
         <Link href="/service-page">
-          <div className="s-card grid-1 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-1">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -25,19 +25,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Interior and Experiential Design</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-2 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-2">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -45,19 +45,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Artworks Design and Installation </h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-3 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-3">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -65,19 +65,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Digital Design</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-4 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-4">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -85,19 +85,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Print Design</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-5 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-5">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -105,19 +105,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Brand</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-6 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-6">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -125,19 +125,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Interior and Experiential Design</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-7 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-7">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full object-cover"
+                className="object-cover w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -145,19 +145,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Interior and Experiential Design</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-8 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-8">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -165,19 +165,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Interior and Experiential Design</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-9 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-9">
+            <div className="z-0 w-full h-full s-img">
               {/* <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -187,9 +187,9 @@ function Showservices() {
 
               <LazyLoadComponent
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -201,19 +201,19 @@ function Showservices() {
                 <img src="../giphy.gif" alt="giphy" loading="lazy" />
               </LazyLoadComponent>
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Motion Design</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-10 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-10">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -221,19 +221,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Interior and Experiential Design</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-11 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-11">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -241,19 +241,19 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Experiential Design</h3>
             </div>
           </div>
         </Link>
         <Link href="/service-page">
-          <div className="s-card grid-12 relative h-full w-full">
-            <div className="s-img  z-0 h-full w-full">
+          <div className="relative w-full h-full s-card grid-12">
+            <div className="z-0 w-full h-full s-img">
               <LazyLoadImage
                 placeholder={
-                  <span className="h-full w-full bg-gray-100"></span>
+                  <span className="w-full h-full bg-gray-100"></span>
                 }
-                className="h-full w-full"
+                className="w-full h-full"
                 height={'100%'}
                 width={'100%'}
                 effect="blur"
@@ -261,24 +261,24 @@ function Showservices() {
                 alt="pics"
               />
             </div>
-            <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+            <div className="absolute bottom-0 left-0 z-10 w-full p-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
               <h3>Artworks Design and Installation</h3>
             </div>
           </div>
         </Link>
-        {/* <div className="s-card grid-7 relative h-full w-full">
-          <div className="s-img  z-0 h-full w-full">
-            <img className="h-full w-full" src="../digital1.jpg" alt="pics" />
+        {/* <div className="relative w-full h-full s-card grid-7">
+          <div className="z-0 w-full h-full s-img">
+            <img className="w-full h-full" src="../digital1.jpg" alt="pics" />
           </div>
-          <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+          <div className="absolute bottom-0 left-0 z-10 w-full py-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
             <h3>Digital Design</h3>
           </div>
         </div>
-        <div className="s-card grid-8 relative h-full w-full">
-          <div className="s-img  z-0 h-full w-full">
-            <img className="h-full w-full" src="../digital1.jpg" alt="pics" />
+        <div className="relative w-full h-full s-card grid-8">
+          <div className="z-0 w-full h-full s-img">
+            <img className="w-full h-full" src="../digital1.jpg" alt="pics" />
           </div>
-          <div className="s-title  md:text-md absolute bottom-0 left-0 z-10 w-full border-b-2 border-gray-300 bg-white py-4 text-sm">
+          <div className="absolute bottom-0 left-0 z-10 w-full py-4 text-sm bg-white border-b-2 border-gray-300 s-title md:text-md">
             <h3>Digital Design</h3>
           </div>
         </div> */}

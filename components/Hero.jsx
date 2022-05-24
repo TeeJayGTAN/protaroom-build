@@ -9,8 +9,8 @@ import { Carousel } from 'react-responsive-carousel'
 import Link from 'next/link'
 
 const words = [
-  'For you , everything has its design',
-  'We build the design with you in mind',
+  'For you, everything has its design...',
+  'We build the design with you in mind...',
   //   'We are a community of designers, creating experiences that inspire people productively',
   //   'Leverage on our creative expertise to communicate your values',
   //   'Let’s make something amazing together...',
@@ -19,7 +19,7 @@ const words = [
 
 function Hero() {
   return (
-    <div className="hero min-h-custom mx-auto  flex w-screen flex-col items-center justify-evenly py-3 px-4 font-bold md:px-8">
+    <div className="flex flex-col items-center w-screen min-h-screen px-4 py-3 mx-auto font-bold transition-all duration-300 hero h-96 justify-evenly md:px-8">
       <div className="hero-bg-img -z-50">
         {/* <Carousel
           autoPlay
@@ -42,7 +42,7 @@ function Hero() {
         </Carousel> */}
         {/* <img src="https://i.ibb.co/V2nGY7t/hero-art1.jpg" alt="hero" /> */}
       </div>
-      <div className="hero__title z-0 max-w-md self-start text-4xl leading-normal  md:max-w-screen-xl md:px-5 md:text-5xl md:leading-normal  lg:px-9 lg:text-5xl lg:leading-relaxed">
+      <div className="z-0 self-start max-w-md text-4xl leading-normal transition-all duration-300 hero__title md:max-w-screen-xl md:px-5 md:text-5xl md:leading-normal lg:px-9 lg:text-5xl lg:leading-relaxed">
         <h1>
           {/* We {`${words[index].substring(0, subIndex)}${blink ? '|' : ' '}`} */}
           {
@@ -56,7 +56,7 @@ function Hero() {
           }
         </h1>
       </div>
-      <div className="hero__categories md:text-md  z-0 mb-10  flex w-full flex-col gap-8 self-start text-sm md:flex-row md:items-center md:justify-between md:gap-0 md:px-5 lg:-mt-10 lg:max-w-screen-lg lg:px-9 lg:font-medium">
+      <div className="z-0 flex flex-col self-start w-full mb-10 text-sm hero__categories md:text-md space-y-7 md:flex-row md:items-center md:justify-between md:gap-0 md:space-y-0 md:space-x-8 md:px-5 lg:-mt-10 lg:max-w-screen-lg lg:px-9 lg:font-medium">
         <span>
           <Link href="/service-page">
             <a>Artworks Design and Installation</a>
@@ -88,7 +88,7 @@ function Hero() {
           </Link>
         </span>
       </div>
-      <div className="hero__socialLinks z-0 flex w-full max-w-md flex-row gap-9 self-start md:px-5 lg:px-9">
+      <div className="z-0 flex flex-row self-start w-full max-w-md hero__socialLinks gap-9 md:px-5 lg:px-9">
         <span>
           <a href="https://www.facebook.com/Protaroom-109300285088378/">
             <FaFacebookF />
@@ -101,7 +101,7 @@ function Hero() {
           </a>
         </span>
       </div>
-      {/* <div className="about-img absolute -top-12 left-72 -z-50 mt-8 ml-auto h-auto w-3/5 opacity-50 md:right-6 md:max-w-sm md:opacity-90">
+      {/* <div className="absolute w-3/5 h-auto mt-8 ml-auto opacity-50 about-img -top-12 left-72 -z-50 md:right-6 md:max-w-sm md:opacity-90">
         <img src="https://i.ibb.co/52XGnzj/protaroom-icon-img.png" alt="" />
       </div> */}
     </div>
