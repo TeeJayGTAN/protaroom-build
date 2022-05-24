@@ -59,11 +59,13 @@ function Hero() {
               onInit={(typewriter) => {
                 typewriter
                   .typeString(
-                    'For <strong style="font-weight: bolder; font-size: 50px; color: #FF8000">you</strong>, everything has its <strong style="font-weight: bolder; font-size: 50px; color: #FF8000">design</strong>...'
+                    'For <strong style="color: #FF8000">you</strong>, everything has its <strong style="color: #FF8000">design</strong>...'
                   )
                   .pauseFor(2500)
                   .deleteAll()
-                  .typeString('We build the design with you in mind...')
+                  .typeString(
+                    'We build the <strong style="color: #FF8000">design</strong> with <strong style="color: #FF8000">you</strong> in mind...'
+                  )
                   .pauseFor(2500)
                   .deleteAll()
                   .start()
