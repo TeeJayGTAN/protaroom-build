@@ -276,7 +276,7 @@ ul {
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../public/girl.png);
+  background-image: url('https://protaroom-build.vercel.app/girl.png');
   /* display: none; */
 }
 
