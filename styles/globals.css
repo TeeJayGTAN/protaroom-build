@@ -27,6 +27,10 @@
   font-weight: 700;
 }
 */
+@font-face {
+  font-family: Seaford;
+  src: url('http://localhost:3000/SeafordRg.ttf');
+}
 *,
 *::before,
 *::after {
@@ -44,7 +48,7 @@
 html,
 body {
   scroll-behaviour: smooth !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: Seaford, 'Poppins', sans-serif;
   min-height: 100vh;
   overflow-x: hidden;
   /*background-color: var(--bg-color);*/

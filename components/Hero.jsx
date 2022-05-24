@@ -7,6 +7,8 @@ import ReactTypingEffect from 'react-typing-effect'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 import { Carousel } from 'react-responsive-carousel'
 import Link from 'next/link'
+import Typewriter from 'typewriter-effect'
+import GraphemeSplitter from 'grapheme-splitter'
 
 const words = [
   'For you, everything has its design...',
@@ -19,7 +21,7 @@ const words = [
 
 function Hero() {
   return (
-    <div className="hero mx-auto flex h-96 min-h-screen w-screen flex-col items-center justify-evenly px-4 py-3 font-bold transition-all duration-300 md:px-8">
+    <div className="flex flex-col items-center w-screen min-h-screen px-4 py-3 mx-auto font-bold transition-all duration-300 hero h-96 justify-evenly md:px-8">
       <div className="hero-bg-img -z-50">
         {/* <Carousel
           autoPlay
@@ -42,21 +44,38 @@ function Hero() {
         </Carousel> */}
         {/* <img src="https://i.ibb.co/V2nGY7t/hero-art1.jpg" alt="hero" /> */}
       </div>
-      <div className="hero__title z-0 max-w-md self-start text-4xl leading-normal transition-all duration-300 md:max-w-screen-xl md:px-5 md:text-5xl md:leading-normal lg:px-9 lg:text-5xl lg:leading-relaxed">
+      <div className="z-0 self-start max-w-md text-4xl leading-normal transition-all duration-300 hero__title md:max-w-screen-xl md:px-5 md:text-5xl md:leading-normal lg:px-9 lg:text-5xl lg:leading-relaxed">
         <h1>
           {/* We {`${words[index].substring(0, subIndex)}${blink ? '|' : ' '}`} */}
           {
-            <ReactTypingEffect
-              text={words}
-              speed="50"
-              eraseSpeed="50"
-              eraseDelay="2500"
-              typingDelay="1800"
+            // <ReactTypingEffect
+            //   text={words}
+            //   speed="50"
+            //   eraseSpeed="50"
+            //   eraseDelay="2500"
+            //   typingDelay="1800"
+            // />
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString(
+                    'For <strong style="font-weight: bolder; font-size: 50px; color: #FF8000">you</strong>, everything has its <strong style="font-weight: bolder; font-size: 50px; color: #FF8000">design</strong>...'
+                  )
+                  .pauseFor(2500)
+                  .deleteAll()
+                  .typeString('We build the design with you in mind...')
+                  .pauseFor(2500)
+                  .deleteAll()
+                  .start()
+              }}
+              options={{
+                loop: true,
+              }}
             />
           }
         </h1>
       </div>
-      <div className="hero__categories md:text-md z-0 mb-10 flex w-full flex-col space-y-7 self-start text-sm md:flex-row md:items-center md:justify-between md:gap-0 md:space-y-0 md:space-x-8 md:px-5 lg:-mt-10 lg:max-w-screen-lg lg:px-9 lg:font-medium">
+      <div className="z-0 flex flex-col self-start w-full mb-10 text-sm hero__categories md:text-md space-y-7 md:flex-row md:items-center md:justify-between md:gap-0 md:space-y-0 md:space-x-8 md:px-5 lg:-mt-10 lg:max-w-screen-lg lg:px-9 lg:font-medium">
         <span>
           <Link href="/service-page">
             <a>Artworks Design and Installation</a>
@@ -88,7 +107,7 @@ function Hero() {
           </Link>
         </span>
       </div>
-      <div className="hero__socialLinks z-0 flex w-full max-w-md flex-row gap-9 self-start md:px-5 lg:px-9">
+      <div className="z-0 flex flex-row self-start w-full max-w-md hero__socialLinks gap-9 md:px-5 lg:px-9">
         <span>
           <a href="https://www.facebook.com/Protaroom-109300285088378/">
             <FaFacebookF />
