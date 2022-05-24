@@ -29,7 +29,7 @@
 */
 @font-face {
   font-family: Seaford;
-  src: url('http://localhost:3000/SeafordRg.ttf');
+  src: url('https://protaroom-build.vercel.app/SeafordRg.ttf');
 }
 *,
 *::before,
