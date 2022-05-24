@@ -7,6 +7,8 @@ import ReactTypingEffect from 'react-typing-effect'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 import { Carousel } from 'react-responsive-carousel'
 import Link from 'next/link'
+import Typewriter from 'typewriter-effect'
+import GraphemeSplitter from 'grapheme-splitter'
 
 const words = [
   'For you, everything has its design...',
@@ -46,12 +48,29 @@ function Hero() {
         <h1>
           {/* We {`${words[index].substring(0, subIndex)}${blink ? '|' : ' '}`} */}
           {
-            <ReactTypingEffect
-              text={words}
-              speed="50"
-              eraseSpeed="50"
-              eraseDelay="2500"
-              typingDelay="1800"
+            // <ReactTypingEffect
+            //   text={words}
+            //   speed="50"
+            //   eraseSpeed="50"
+            //   eraseDelay="2500"
+            //   typingDelay="1800"
+            // />
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString(
+                    'For <strong style="font-weight: bolder; font-size: 50px; color: #FF8000">you</strong>, everything has its <strong style="font-weight: bolder; font-size: 50px; color: #FF8000">design</strong>...'
+                  )
+                  .pauseFor(2500)
+                  .deleteAll()
+                  .typeString('We build the design with you in mind...')
+                  .pauseFor(2500)
+                  .deleteAll()
+                  .start()
+              }}
+              options={{
+                loop: true,
+              }}
             />
           }
         </h1>

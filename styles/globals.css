@@ -27,6 +27,10 @@
   font-weight: 700;
 }
 */
+@font-face {
+  font-family: Seaford;
+  src: url('https://protaroom-build.vercel.app/SeafordRg.ttf');
+}
 *,
 *::before,
 *::after {
@@ -44,7 +48,7 @@
 html,
 body {
   scroll-behaviour: smooth !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: Seaford, 'Poppins', sans-serif;
   min-height: 100vh;
   overflow-x: hidden;
   /*background-color: var(--bg-color);*/
@@ -276,7 +280,7 @@ ul {
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../public/girl.png);
+  background-image: url('https://protaroom-build.vercel.app/girl.png');
   /* display: none; */
 }
 
