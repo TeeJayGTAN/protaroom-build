@@ -244,6 +244,9 @@ function service() {
               <div className="rounded ">
                 <img className="overflow-hidden rounded" src="42.jpg" />
               </div>
+              <div className="rounded ">
+                <img className="overflow-hidden rounded" src="design/9.jpg" />
+              </div>
             </Carousel>
             {/* https://i.ibb.co/sCKRL0s/34.jpg https://i.ibb.co/0YZY4Th/33.jpg
               https://i.ibb.co/tMcBpZp/28.jpg https://i.ibb.co/0GmRtZf/26.jpg
